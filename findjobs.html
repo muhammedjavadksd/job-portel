@@ -1,0 +1,2786 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick way job </title>
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="style.css"> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+ 
+</head>
+
+<body>
+    <nav class="menu" id="menu">
+		<div class="contenedor contenedor-botones-menu">
+			<button id="btn-menu-barras-s" class="btn-menu-barras-s"><i class="fas fa-bars"></i></button>
+		 
+		</div>
+
+		<div class="contenedor contenedor-enlaces-nav">
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p style="margin-bottom: 0;">Advance System<span>Menu</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+
+			<div class="enlaces">
+				<a href="index.html">Home</a> 
+                <a href="service.html">Service</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact us</a>
+			</div>
+		</div>
+
+		<div class="contenedor contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> back</button>
+					 
+					<a href="#" data-categoria="tecnologia-y-computadoras">Login - Register<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="libros">Contact<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="ropa-y-accesorios">My Account<i class="fas fa-angle-right"></i></a>
+					 
+				</div>
+
+				<div class="contenedor-subcategorias">
+					<div class="subcategoria " data-categoria="tecnologia-y-computadoras">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">All login's</h3>
+              <a href="login.html">Candidate Login</a>
+              <a href="promoter-login/login.html">Promoter Login</a>
+              <a href="Employer Login/login.html">Employer Login</a>
+
+							 
+						</div>
+
+						 
+					</div>
+
+					<div class="subcategoria" data-categoria="libros">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Main Contact</h3>
+							<a href="#">Email</a>
+							<a href="#">Phone Number</a>
+							<a href="#">Whatsapp</a>
+							 
+						</div>
+
+						 
+					</div>
+
+					<div class="subcategoria" data-categoria="ropa-y-accesorios">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Account</h3>
+							<a href="profile.html">Profile</a>
+							<a href="findjobs.html">Find Candidate</a>
+							<a href="jobidsearch.html">Job ID Search</a>
+							 
+						</div>
+
+					 
+					</div> 
+					 
+				</div>
+			</div>
+		</div>
+	</nav>
+  <div id="preloader">
+    <div class="loader">
+      <img id="imgs" src="image/loader.gif" alt="#" />
+    </div>
+  </div>
+
+
+
+  <section>
+    <div class="title-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ol class="title-bar-text">
+              <li class="breadcrumb-item"><a href="index.html">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">/ Find Jobs</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="home-find-jobs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="filter-box">
+            <div class="box-section-filter">
+              <div class="row">
+                <div class="col-6">
+                  <h2 class="fh-left">Filters
+                  </h2>
+                </div>
+                <div class="col-6">
+                  <a href="" class="clear-button-a">Clear All Filters</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="box-section-filter">
+              <h2 class="fh-left">Availability
+              </h2><div class="height-5px"></div><br>
+              <input type="radio" name="part" id="">
+              <label for="">Part time</label><div class="height-5px"></div>
+              <input type="radio" name="part" id="">
+              <label for="">Full time</label>
+              
+            </div>
+
+            <div class="box-section-filter">
+              <h2 class="fh-left">Male / Female
+              </h2><div class="height-5px"></div><br>
+              <input type="radio" name="Male" id="">
+              <label for="">Male</label><div class="height-5px"></div>
+              <input type="radio" name="Male" id="">
+              <label for=""> Female</label>
+              
+            </div>
+
+            <div class="box-section-filter">
+              <h2 class="fh-left">Qualification 
+              </h2><div class="height-5px"></div><br>
+              <select name="" id="" class="profile-form-input">
+                <option value="">Select</option>
+                <option value="133">ANM1</option>
+                <option value="135">Aviation And Hospitality
+                </option>
+                <option value="1">B com</option>
+                <option value="2">B Tech</option>
+                <option value="21">B.Arch</option>
+                <option value="83">B.Ed</option>
+                <option value="120">B.Pharm</option>
+                <option value="15">BA</option>
+                <option value="143">BA Journalism</option>
+                <option value="117">BAMS</option>
+                <option value="8">BBA</option>
+                <option value="107">BBM</option>
+                <option value="9">BCA</option>
+                <option value="94">BCJ</option>
+                <option value="116">BDS</option>
+                <option value="24">BE</option>
+                <option value="115">BFA</option>
+                <option value="123">BFS</option>
+                <option value="119">BHM</option>
+                <option value="118">BHMS</option>
+                <option value="10">BSc</option>
+                <option value="25">BSc Nursing</option>
+                <option selected value="137">BTS</option>
+                <option value="138">BTS AND AVIATION</option>
+                <option value="70">Building Science Management
+                </option>
+                <option value="77">Business Continuity &
+                    Disaster Management</option>
+                <option value="30">Chemical Engineering</option>
+                <option value="31">Civil Engineering</option>
+                <option value="80">Communication Skills &
+                    Personality Development
+                </option>
+                <option value="96">Computer Application</option>
+                <option value="32">Computer Engineering</option>
+                <option value="92">Computer Hardware &
+                    Maintanence</option>
+                <option value="113">Computer Science</option>
+                <option value="132">D.ED(TTC)</option>
+                <option value="103">Diesel Mechanic</option>
+                <option value="98">Diploma Aviaton Management
+                    Course</option>
+                <option value="131">Diploma in Ayurveda Nursing
+                    and Panchakarma
+                    Therapist </option>
+                <option value="144">Diploma in Electronic and
+                    Instrumentation</option>
+                <option value="142">Diploma in Multimedia
+                </option>
+                <option value="68">Drug Store & Business
+                    Management</option>
+                <option value="105">Electrical & Electronics
+                </option>
+                <option value="33">Electrical Engineering
+                </option>
+                <option value="139">Electronics</option>
+                <option value="35">Electronics (Microprocessor)
+                </option>
+                <option value="34">Electronics and Communication
+                    Engineering</option>
+                <option value="36">Electronics and
+                    TeleCommunication Engineering
+                </option>
+                <option value="72">Facility Management</option>
+                <option value="37">Fashion Design</option>
+                <option value="101">Fire & Safety</option>
+                <option value="79">Functional English</option>
+                <option value="78">Fundamentals of Accounting
+                </option>
+                <option value="38">Garment Technology</option>
+                <option value="110">GNM</option>
+                <option value="97">Graphic Designing</option>
+                <option value="65">Health Education & Community
+                    Pharmacy</option>
+                <option value="130">health inspector</option>
+                <option value="69">Hospital & Clinical Pharmacy
+                </option>
+                <option value="89">Hospitality ,Travel &
+                    Tourisam</option>
+                <option value="114">Hotel Management</option>
+                <option value="55">Hotel Management and Catering
+                    Technology</option>
+                <option value="64">Human Anatomy & Physiology
+                </option>
+                <option value="85">I A T A Course</option>
+                <option value="39">Information Technology
+                </option>
+                <option value="41">Interior Design and
+                    Decoration </option>
+                <option value="93">Interior Designing</option>
+                <option value="11">ITI</option>
+                <option value="42">Leather Technology</option>
+                <option value="43">Library and Information
+                    Sciences</option>
+                <option value="127">LLB</option>
+                <option value="20">LLM</option>
+                <option value="74">Logistics Management</option>
+                <option value="17">M A</option>
+                <option value="18">M com</option>
+                <option value="100">M Phill</option>
+                <option value="90">M TECH</option>
+                <option value="121">M.Pharm</option>
+                <option value="95">Master Of Communication And
+                    Journalisam</option>
+                <option value="14">MBA</option>
+                <option value="23">MBBS</option>
+                <option value="27">MCA</option>
+                <option value="125">MD</option>
+                <option value="45">Mechanical Engineering
+                </option>
+                <option value="46">Medical Laboratory Technology
+                </option>
+                <option value="124">MFS</option>
+                <option value="126">MS</option>
+                <option value="26">MSc</option>
+                <option value="122">MSC</option>
+                <option value="87">MSW</option>
+                <option value="128">Operation Theater Assistant
+                </option>
+                <option value="106">Optometry</option>
+                <option value="88">PGDMA</option>
+                <option value="61">Pharmaceutical Chemistry
+                </option>
+                <option value="67">Pharmaceutical Jurisprudence
+                </option>
+                <option value="60">Pharmaceutics </option>
+                <option value="62">Pharmacognosy</option>
+                <option value="66">Pharmacology & Toxicology
+                </option>
+                <option value="47">Plastic Technology</option>
+                <option value="86">Plus Two</option>
+                <option value="22">Poly Technique</option>
+                <option value="109">Polymer Technology</option>
+                <option value="134">Pre-degree</option>
+                <option value="48">Production and Industrial
+                    Engineering</option>
+                <option value="71">Project Management</option>
+                <option value="140">QC</option>
+                <option value="59">Quality Assurance Inspector
+                </option>
+                <option value="136">Radiological technology
+                </option>
+                <option value="75">Real Estate Management
+                </option>
+                <option value="73">Security and Emergency
+                    Management</option>
+                <option value="57">Skilled Technician (Machine
+                    Maintenance)</option>
+                <option value="58">Skilled Technician
+                    (Machinist)</option>
+                <option value="82">SSLC</option>
+                <option value="49">Textile Design</option>
+                <option value="50">Textile Processing</option>
+                <option value="53">Textile Technology (Knitting)
+                </option>
+                <option value="51">Textile Technology (Spinning)
+                </option>
+                <option value="52">Textile Technology (Weaving)
+                </option>
+                <option value="108">Travel & Tourisam</option>
+                <option value="129">VHSE</option>
+            </select>
+              
+            </div>
+
+            <div class="box-section-filter">
+              <h2 class="fh-left">Pref. Job
+              </h2><div class="height-5px"></div><br>
+              <select name="" id="" class="job-type"> 
+              <option value="">All</option>
+              <option value="689">
+                2D designer Job</option>
+              <option value="647">
+                3D Designer Job</option>
+              <option value="314">
+                A/C Mechanical Job</option>
+              <option value="834">
+                Acadamic counselor Job</option>
+              <option value="596">
+                Academic Coordinator Job</option>
+              <option value="872">
+                Accessories fitter job</option>
+              <option value="287">
+                Accountant Job</option>
+              <option value="854">
+                Accounts manager Job</option>
+              <option value="816">
+                ACP claring Job</option>
+              <option value="881">
+                ACP Worker job</option>
+              <option value="567">
+                Administration Job</option>
+              <option value="814">
+                Advocate Job</option>
+              <option value="849">
+                AHA trainee job</option>
+              <option value="850">
+                AHA trainer job</option>
+              <option value="594">
+                Album Designer Job</option>
+              <option value="698">
+                Aluminium fabricator Job</option>
+              <option value="871">
+                Ambulance driver job</option>
+              <option value="597">
+                Anchoring Job</option>
+              <option value="365">
+                Android Developer Job</option>
+              <option value="782">
+                Anesthesia technician Job</option>
+              <option value="693">
+                Angular developer jJob</option>
+              <option value="574">
+                Animation Job</option>
+              <option value="711">
+                APP Developer Job</option>
+              <option value="17">
+                Architecture Job</option>
+              <option value="664">
+                ArtCAM Designer,CNC Machine Operator Job</option>
+              <option value="691">
+                Artficial inteligent developer Job</option>
+              <option value="825">
+                Artist Job</option>
+              <option value="796">
+                ASP Developer Job</option>
+              <option value="595">
+                Asp Programmer Job</option>
+              <option value="798">
+                assistant manager Job</option>
+              <option value="453">
+                Attender Job</option>
+              <option value="809">
+                Audio recording engineer Job</option>
+              <option value="886">
+                Audiologist job</option>
+              <option value="677">
+                Auditor Job</option>
+              <option value="338">
+                Auto Cad Designer Job</option>
+              <option value="759">
+                Auto electrician Job</option>
+              <option value="858">
+                Auto mobile engineer Job</option>
+              <option value="836">
+                Automobile Ac technician Job</option>
+              <option value="601">
+                Automobile Ac Technician</option>
+              <option value="590">
+                Automobile Electrician Job</option>
+              <option value="763">
+                Automobile technician Job</option>
+              <option value="500">
+                Aviation Job</option>
+              <option value="865">
+                Aviation trainer job</option>
+              <option value="556">
+                Ayurveda Doctor Job</option>
+              <option value="441">
+                Ayurvedha Therapist Job</option>
+              <option value="458">
+                Baby care Job</option>
+              <option value="876">
+                Back end developer Job</option>
+              <option value="878">
+                Back end engineer</option>
+              <option value="598">
+                Back Office Staff Job</option>
+              <option value="658">
+                Backer/Backery Master Job</option>
+              <option value="36">
+                Banking / Non Banking Financial Services Job</option>
+              <option value="444">
+                Bar Man Job</option>
+              <option value="718">
+                Barista Job</option>
+              <option value="149">
+                Beautician Job</option>
+              <option value="164">
+                Billing Job</option>
+              <option value="654">
+                Billing Manager Job</option>
+              <option value="799">
+                Bio diversity supervisor Job</option>
+              <option value="398">
+                Bio Medical Engineering Job</option>
+              <option value="588">
+                Biochemist Job</option>
+              <option value="681">
+                Body shop Supervisor Job</option>
+              <option value="862">
+                Boiler operator</option>
+              <option value="880">
+                Borma Maker</option>
+              <option value="599">
+                BPO Executive Job</option>
+              <option value="734">
+                Busineess Analyst Job</option>
+              <option value="600">
+                Business Associates Job</option>
+              <option value="768">
+                Business development officer Job</option>
+              <option value="656">
+                Business Development Manager Job</option>
+              <option value="724">
+                Butcher Job</option>
+              <option value="815">
+                Cable tv technician Job</option>
+              <option value="667">
+                Cake Maker Job</option>
+              <option value="807">
+                Camera technician Job</option>
+              <option value="569">
+                Camera man Job</option>
+              <option value="735">
+                Car Ac machanic Job</option>
+              <option value="713">
+                Car polishing Job</option>
+              <option value="256">
+                Caretaker Job</option>
+              <option value="563">
+                Carpenter Job</option>
+              <option value="189">
+                Cashier Job</option>
+              <option value="715">
+                Catering boy Job</option>
+              <option value="349">
+                CCTV Technician Job</option>
+              <option value="547">
+                Charted Accountant Job</option>
+              <option value="551">
+                Chemical Engineer Job</option>
+              <option value="663">
+                Chemist Job</option>
+              <option value="552">
+                Chief Executive Officer Job</option>
+              <option value="812">
+                Chip level engineer Job</option>
+              <option value="582">
+                Civil Draughtsman Job</option>
+              <option value="357">
+                Civil Engineer Job</option>
+              <option value="560">
+                Civil Site In Charge / Supervisor Job</option>
+              <option value="435">
+                Cleaning Job</option>
+              <option value="298">
+                Clerk Job</option>
+              <option value="460">
+                Co-Ordinater Job</option>
+              <option value="549">
+                Collection Executive / Delivery Executive Job</option>
+              <option value="291">
+                Computer Operator Job</option>
+              <option value="585">
+                Computer Teacher Job</option>
+              <option value="370">
+                Content Writer Job</option>
+              <option value="555">
+                Cook / Chef / Stewards(F&B Production) Job</option>
+              <option value="86">
+                Copy Writer Job</option>
+              <option value="696">
+                Corel drawing designer Job</option>
+              <option value="605">
+                Cosmetologist Job</option>
+              <option value="257">
+                Counselor Job</option>
+              <option value="602">
+                Counter Staff Job</option>
+              <option value="738">
+                CPC Trainer Job</option>
+              <option value="650">
+                Craft Designer Job</option>
+              <option value="140">
+                Crane & Heavy Equipment Operator Job</option>
+              <option value="603">
+                Cross Platform App Developer Job</option>
+              <option value="863">
+                Cssd Technician job</option>
+              <option value="737">
+                CT</option>
+              <option value="491">
+                CT Scan Job</option>
+              <option value="736">
+                CTC Trainer Job</option>
+              <option value="604">
+                Customer Relation Executive Job</option>
+              <option value="679">
+                Customer Relation Manager Job</option>
+              <option value="733">
+                Cutting master Job</option>
+              <option value="606">
+                Cycle Mechanic Job</option>
+              <option value="313">
+                D T P operator Job</option>
+              <option value="492">
+                Data Analysis Job</option>
+              <option value="3">
+                Data Entry Job</option>
+              <option value="844">
+                dE</option>
+              <option value="557">
+                Dental Assistant Job</option>
+              <option value="875">
+                Denter Jobs</option>
+              <option value="845">
+                Dermetologist</option>
+              <option value="748">
+                Desert maker Job</option>
+              <option value="801">
+                Design engineer Job</option>
+              <option value="593">
+                Dialysis Technician Job</option>
+              <option value="607">
+                Die Cutting Operator Job</option>
+              <option value="706">
+                Diesel mechanic Job</option>
+              <option value="757">
+                Dietitian Job</option>
+              <option value="583">
+                Digital Marketing Job</option>
+              <option value="821">
+                Digital painter Job</option>
+              <option value="766">
+                Direct assistant Job</option>
+              <option value="700">
+                Direct marketing executive Job</option>
+              <option value="790">
+                Dishwasher Job</option>
+              <option value="47">
+                Doctor / Medical Dental Practice Job</option>
+              <option value="833">
+                Documentation staff Job</option>
+              <option value="351">
+                Dot Net Developer Job</option>
+              <option value="129">
+                Draughtsman Job</option>
+              <option value="112">
+                Driver Job</option>
+              <option value="747">
+                Driving instructor Job</option>
+              <option value="746">
+                DTH technician Job</option>
+              <option value="704">
+                DTP Operator Job</option>
+              <option value="773">
+                Eco technician Job</option>
+              <option value="725">
+                Editor Job</option>
+              <option value="660">
+                Education Consultant Job</option>
+              <option value="788">
+                Electric Motor, Power Tool, and Related Repaires</option>
+              <option value="856">
+                Electrical aa</option>
+              <option value="857">
+                Electrical and Electronics technician Job</option>
+              <option value="13">
+                Electrical Engineering Job</option>
+              <option value="378">
+                Electrical Supervisor Job</option>
+              <option value="373">
+                Electrician Job</option>
+              <option value="828">
+                Electrolysiss Job</option>
+              <option value="565">
+                Electronic Engineer Job</option>
+              <option value="118">
+                Electronic Technician Job</option>
+              <option value="855">
+                Electronical Technician Job</option>
+              <option value="15">
+                Electronics & Telecommunications Job</option>
+              <option value="404">
+                Electronics And Instrumentation Job</option>
+              <option value="826">
+                Electronist Job</option>
+              <option value="703">
+                English Faculity Job</option>
+              <option value="498">
+                EPABX TECHNICIAN Job</option>
+              <option value="752">
+                ERP Developer Job</option>
+              <option value="764">
+                Estimation engineer Job</option>
+              <option value="770">
+                Event management executive Job</option>
+              <option value="861">
+                Eye specialist job</option>
+              <option value="707">
+                FABER Technician Job</option>
+              <option value="465">
+                Fabricator Job</option>
+              <option value="662">
+                Factory Worker Job</option>
+              <option value="505">
+                Faculity Job</option>
+              <option value="293">
+                Fashion Designer Job</option>
+              <option value="676">
+                Finance Manager Job</option>
+              <option value="609">
+                Financial Consultant Job</option>
+              <option value="445">
+                Fire and Saftey Officer Job</option>
+              <option value="683">
+                Fish Cutter Job</option>
+              <option value="873">
+                Fitness equipments Job</option>
+              <option value="727">
+                Fitness Center Job</option>
+              <option value="570">
+                Fitness Trainer Job</option>
+              <option value="484">
+                Fitter Job</option>
+              <option value="652">
+                Flex Printing Staff Job</option>
+              <option value="779">
+                Floor Manager Job</option>
+              <option value="702">
+                Flower decoration Job</option>
+              <option value="688">
+                Flutter Developer Job</option>
+              <option value="885">
+                Food Quality controller job</option>
+              <option value="406">
+                Food Technologist Job</option>
+              <option value="726">
+                Foreign Exchange Center Job</option>
+              <option value="220">
+                Foreman Job</option>
+              <option value="610">
+                Four Wheeler Mechanic Job</option>
+              <option value="745">
+                Front End Developer Job</option>
+              <option value="2">
+                Front Office / Reception Job</option>
+              <option value="611">
+                Full Stack Developer Job</option>
+              <option value="692">
+                Fullstack developer Job</option>
+              <option value="795">
+                Gardening Job</option>
+              <option value="558">
+                Gas Stove Technician Job</option>
+              <option value="771">
+                Gas welder Job</option>
+              <option value="613">
+                General Manager Job</option>
+              <option value="831">
+                General technician Job</option>
+              <option value="649">
+                GIS Developer Job</option>
+              <option value="462">
+                Glass Cutter Job</option>
+              <option value="762">
+                Glass worker Job</option>
+              <option value="614">
+                Godown Helper Job</option>
+              <option value="781">
+                Gold loan executive Job</option>
+              <option value="564">
+                Gold smith Job</option>
+              <option value="71">
+                Graphic Designer Job</option>
+              <option value="292">
+                Ground Staff Job</option>
+              <option value="612">
+                GST Accountant Job</option>
+              <option value="728">
+                Gymnasium</option>
+              <option value="665">
+                Gynaecologist</option>
+              <option value="716">
+                Gypsum board Job</option>
+              <option value="449">
+                Hair Cutter Job</option>
+              <option value="729">
+                Hair Fixing Centre Job</option>
+              <option value="835">
+                hair stylist Job</option>
+              <option value="730">
+                Hardware</option>
+              <option value="69">
+                Hardware Maintenance/ Networking Job</option>
+              <option value="742">
+                Health Care Centre</option>
+              <option value="769">
+                Health marshall Job</option>
+              <option value="114">
+                Helper Job</option>
+              <option value="741">
+                Home Appliance Job</option>
+              <option value="51">
+                Home Nursing Job</option>
+              <option value="43">
+                Hospital Administration Job</option>
+              <option value="54">
+                Hospitality, Travel & Tourism Job</option>
+              <option value="731">
+                Hotels- Five Star Deluxe Hotel Job</option>
+              <option value="732">
+                Hotels- Four Star Hotels Job</option>
+              <option value="867">
+                House boat operator job</option>
+              <option value="694">
+                House Keeping Staff Job</option>
+              <option value="429">
+                House Maid Job</option>
+              <option value="592">
+                Housekeeping supervisor Job</option>
+              <option value="566">
+                HR Executive Job</option>
+              <option value="360">
+                HR Manager Job</option>
+              <option value="800">
+                hygiene cleaning supervisor Job</option>
+              <option value="388">
+                IELTS Trainer Job</option>
+              <option value="573">
+                Illustrator Job</option>
+              <option value="789">
+                Industrial Production Manager Job</option>
+              <option value="512">
+                Instrumentation Job</option>
+              <option value="316">
+                Interior Designer Job</option>
+              <option value="852">
+                Interior Supervisor Job</option>
+              <option value="615">
+                Invertor Technician Job</option>
+              <option value="534">
+                IOS Developer Job</option>
+              <option value="616">
+                IT Incharge Job</option>
+              <option value="874">
+                IT technician job</option>
+              <option value="326">
+                Java Developer Job</option>
+              <option value="819">
+                Java Team leader Job</option>
+              <option value="685">
+                Jcb Operator Job</option>
+              <option value="437">
+                Juice maker Job</option>
+              <option value="842">
+                Junior equity leader Job</option>
+              <option value="805">
+                Key duplication Job</option>
+              <option value="674">
+                Kitchen Equipment Technician Job</option>
+              <option value="794">
+                Kitchen supervisor Job</option>
+              <option value="853">
+                Lab Incharge</option>
+              <option value="266">
+                Lab Technician Job</option>
+              <option value="618">
+                Labour Staff Job</option>
+              <option value="495">
+                Laptop Technician Job</option>
+              <option value="617">
+                Laravel Developer Job</option>
+              <option value="753">
+                Laser cutting machine operator Job</option>
+              <option value="670">
+                Lathe Worker Job</option>
+              <option value="434">
+                Laundary Staff Job</option>
+              <option value="174">
+                Law Officer Job</option>
+              <option value="499">
+                LED DISPLAY TECHNICIAN Job</option>
+              <option value="172">
+                Legal Advisor Job</option>
+              <option value="262">
+                Librarian Job</option>
+              <option value="869">
+                Lift Operator</option>
+              <option value="870">
+                Lift Operator job</option>
+              <option value="586">
+                Lift technician Job</option>
+              <option value="364">
+                Logistics Job</option>
+              <option value="620">
+                Magneto Developer Job</option>
+              <option value="10">
+                Maintenance / Repair (Facilities & Machinery) Job</option>
+              <option value="690">
+                Maintenance manager Job</option>
+              <option value="619">
+                Management Trainee Job</option>
+              <option value="237">
+                Manager Job</option>
+              <option value="744">
+                Manual Tester Job</option>
+              <option value="546">
+                Marketing Executive Job</option>
+              <option value="545">
+                Marketing Manager Job</option>
+              <option value="568">
+                Mason Job</option>
+              <option value="100">
+                Materials Management / Inventory Control Job</option>
+              <option value="115">
+                Mechanic / Machine Operator Job</option>
+              <option value="476">
+                Mechanic Job</option>
+              <option value="12">
+                Mechanical / HVAC /MEP Job</option>
+              <option value="234">
+                Mechanical Engineer Job</option>
+              <option value="82">
+                Media/Ads/Entertainment Job</option>
+              <option value="45">
+                Medical & Surgical Equipment Technicians Job</option>
+              <option value="697">
+                Medical coding Job</option>
+              <option value="397">
+                Medical Engineering Job</option>
+              <option value="490">
+                Medical microbiology Job</option>
+              <option value="320">
+                Medical Representative Job</option>
+              <option value="79">
+                Medical Transcription / Legal Transcription Job</option>
+              <option value="622">
+                MEP Engineer Job</option>
+              <option value="787">
+                Metal Worker Job</option>
+              <option value="26">
+                Microbiologist Job</option>
+              <option value="804">
+                MIS Executve Job</option>
+              <option value="721">
+                MLT Trainer Job</option>
+              <option value="851">
+                Mobile app developer job</option>
+              <option value="466">
+                Mobile Technician Job</option>
+              <option value="820">
+                Moduler kitchen installer Job</option>
+              <option value="621">
+                Motor Winding Jobs</option>
+              <option value="571">
+                Moulding jobs</option>
+              <option value="580">
+                MRI Scaning job</option>
+              <option value="623">
+                Multimedia Designer Job</option>
+              <option value="142">
+                NDT Technician Job</option>
+              <option value="355">
+                Network Engineer Job</option>
+              <option value="416">
+                News Reporting Job</option>
+              <option value="846">
+                Node js developer job</option>
+              <option value="286">
+                Notice and Brochure Distributions Job</option>
+              <option value="300">
+                Nurse Job</option>
+              <option value="775">
+                Nursing consultant Job</option>
+              <option value="624">
+                Nursing Superintendent Job</option>
+              <option value="829">
+                Nutrician Job</option>
+              <option value="837">
+                NVC programmer Job</option>
+              <option value="722">
+                Odoo developer Job</option>
+              <option value="648">
+                OET Trainer Job</option>
+              <option value="296">
+                Office Job</option>
+              <option value="554">
+                Office Assistant / Peon Job</option>
+              <option value="325">
+                Office Secratery Job</option>
+              <option value="810">
+                Office secretary Job</option>
+              <option value="578">
+                Oil and Gas Jobs</option>
+              <option value="818">
+                Operation head Job</option>
+              <option value="584">
+                Operation Manager Job</option>
+              <option value="675">
+                ophthalmologist Job</option>
+              <option value="527">
+                Optical Fiber Technician Job</option>
+              <option value="384">
+                Optometrist Job</option>
+              <option value="803">
+                Order taff Job</option>
+              <option value="859">
+                Ortho pediatric Surgen</option>
+              <option value="572">
+                OT Technician Job</option>
+              <option value="315">
+                P H P Programming Job</option>
+              <option value="436">
+                Packing Job</option>
+              <option value="669">
+                Paediatrician Job</option>
+              <option value="668">
+                Paint Mixer Job</option>
+              <option value="335">
+                Painter Job</option>
+              <option value="686">
+                Pantry Man Job</option>
+              <option value="813">
+                Paramedocal trainer</option>
+              <option value="838">
+                PDI Technician</option>
+              <option value="839">
+                Pediatrician Job</option>
+              <option value="152">
+                Personal Care / Service</option>
+              <option value="756">
+                personal finance adviser Job</option>
+              <option value="361">
+                Personal Secratery Job</option>
+              <option value="712">
+                Pest control Technician Job</option>
+              <option value="625">
+                Petrol Filling Staff Job</option>
+              <option value="626">
+                Pharmacy Sales Staff Job</option>
+              <option value="301">
+                Pharmasist Job</option>
+              <option value="548">
+                Photo Editor Job</option>
+              <option value="749">
+                Photo stat helper Job</option>
+              <option value="848">
+                Photographer job</option>
+              <option value="883">
+                Photoshop job</option>
+              <option value="535">
+                PHP Developer Job</option>
+              <option value="270">
+                Physical Education Job</option>
+              <option value="666">
+                Physician Job</option>
+              <option value="519">
+                Physiotherapist Job</option>
+              <option value="709">
+                Picker Job</option>
+              <option value="577">
+                Piping Jobs</option>
+              <option value="631">
+                Pizza Maker</option>
+              <option value="524">
+                Planning Engineer Job</option>
+              <option value="657">
+                Plant Operator Job</option>
+              <option value="627">
+                PLC Programmer Job</option>
+              <option value="450">
+                plumber Job</option>
+              <option value="468">
+                Porotta Maker Job</option>
+              <option value="754">
+                power tool technician Job</option>
+              <option value="277">
+                Principal / Director Job</option>
+              <option value="411">
+                Printer Job</option>
+              <option value="811">
+                Printer engineer Job</option>
+              <option value="682">
+                Printer Mechine Technician Job</option>
+              <option value="695">
+                Printer service technician Job</option>
+              <option value="628">
+                Printing Press Jobs</option>
+              <option value="451">
+                PRO Job</option>
+              <option value="213">
+                Production / Manufacturing / R&D Job</option>
+              <option value="830">
+                Production assistant Job</option>
+              <option value="226">
+                Production Manager / Engineer Job</option>
+              <option value="629">
+                Production Supervisor Job</option>
+              <option value="840">
+                Program consultant Job</option>
+              <option value="271">
+                Program Area Manager / Leader Job</option>
+              <option value="539">
+                Programming Job</option>
+              <option value="342">
+                Project Engineer Job</option>
+              <option value="797">
+                Project executive Executive Job</option>
+              <option value="486">
+                Project manager Job</option>
+              <option value="672">
+                Prometric Trainer Job</option>
+              <option value="743">
+                Proof reading Job</option>
+              <option value="431">
+                Psycatric socialworker Job</option>
+              <option value="341">
+                Psychologist Job</option>
+              <option value="761">
+                Purchase assistant Job</option>
+              <option value="97">
+                Purchasing / Logistics / SCM / Distribution Job</option>
+              <option value="786">
+                Purchasing Agent Job</option>
+              <option value="792">
+                Purchasing Manager Job</option>
+              <option value="630">
+                Python Developer Job</option>
+              <option value="847">
+                Quality analyst job</option>
+              <option value="151">
+                Quality Control / Assurance / Inspection Job</option>
+              <option value="32">
+                Quantitative Portfolio Managers Job</option>
+              <option value="528">
+                Radiologist Job</option>
+              <option value="49">
+                Radiology / Imaging / CT / MRT Scan Technician Job</option>
+              <option value="687">
+                React Native Developer Job</option>
+              <option value="655">
+                Regional Manager Job</option>
+              <option value="755">
+                Relationship executive Job</option>
+              <option value="24">
+                Research & Development Labs Job</option>
+              <option value="587">
+                Research Associate Job</option>
+              <option value="751">
+                Reservation executive Job</option>
+              <option value="684">
+                Resident Medical officer Job</option>
+              <option value="653">
+                Restaurant Manager Job</option>
+              <option value="866">
+                Restaurant supervisor</option>
+              <option value="576">
+                Revit Jobs</option>
+              <option value="699">
+                Roofing Job</option>
+              <option value="467">
+                Room Boy Job</option>
+              <option value="884">
+                Rubber technologie engineer</option>
+              <option value="211">
+                Safety Engineer Job</option>
+              <option value="229">
+                Safety Management / HSE Job</option>
+              <option value="661">
+                Sales Engineer Job</option>
+              <option value="671">
+                Sales Executive Job</option>
+              <option value="553">
+                Sales Manager Inside Job</option>
+              <option value="634">
+                Sales Manager Job</option>
+              <option value="550">
+                Sales Staff Inside Job</option>
+              <option value="758">
+                Sandwitch maker Job</option>
+              <option value="632">
+                SAP Business One for functional Consultant Job</option>
+              <option value="868">
+                saw mill foreman</option>
+              <option value="710">
+                Scanning Job</option>
+              <option value="783">
+                Scanning Typist Job</option>
+              <option value="345">
+                Screen Printing Job</option>
+              <option value="767">
+                Sealing machine Work</option>
+              <option value="887">
+                Search Engine Optimisation</option>
+              <option value="5">
+                Security / Protective Service Job</option>
+              <option value="67">
+                SEO / SEM Analyst Job</option>
+              <option value="678">
+                Service Advisor Job</option>
+              <option value="750">
+                Service manager Job</option>
+              <option value="589">
+                Shawarma maker Job</option>
+              <option value="143">
+                Sheet Metal Worker Job</option>
+              <option value="708">
+                Showroom executive Job</option>
+              <option value="720">
+                Snacks master Job</option>
+              <option value="659">
+                Social Media Manager Job</option>
+              <option value="153">
+                Social Service / Production Job</option>
+              <option value="635">
+                Soft Skills Trainer Job</option>
+              <option value="70">
+                Software / Programming / System Analyst Job</option>
+              <option value="879">
+                Software consultant Job</option>
+              <option value="561">
+                Software Engineer / Developer Job</option>
+              <option value="633">
+                Solar Technician Job</option>
+              <option value="822">
+                Sound engineer Job</option>
+              <option value="579">
+                Spa Therapist Job</option>
+              <option value="454">
+                Spare Assistant Job</option>
+              <option value="216">
+                Spare Manager / Engineer Job</option>
+              <option value="701">
+                Spare parts technician</option>
+              <option value="442">
+                SPC Head Job</option>
+              <option value="276">
+                Special Needs Teacher Job</option>
+              <option value="636">
+                Speech Therapist Job</option>
+              <option value="124">
+                Spray Painter Job</option>
+              <option value="832">
+                SQL developer Job</option>
+              <option value="806">
+                Stage decoration Job</option>
+              <option value="882">
+                Stainless Steel worker job</option>
+              <option value="637">
+                Steel Fabricator Job</option>
+              <option value="131">
+                Steel Fitter / Steel Fixturer Job</option>
+              <option value="297">
+                stenographer/secretarial Job</option>
+              <option value="860">
+                Sticker worker job</option>
+              <option value="239">
+                Stitching / Tailoring Job</option>
+              <option value="329">
+                store keeper Job</option>
+              <option value="344">
+                Store Manager Job</option>
+              <option value="343">
+                Structural Engineering Job</option>
+              <option value="823">
+                Studio assistant Job</option>
+              <option value="240">
+                Supervisor / Officer Job</option>
+              <option value="98">
+                Supply Chain and Logistics Management Job</option>
+              <option value="503">
+                SURVIRE Job</option>
+              <option value="336">
+                Sweeper Job</option>
+              <option value="299">
+                System Admins Jobs</option>
+              <option value="245">
+                System Analyst Job</option>
+              <option value="482">
+                System engineer Job</option>
+              <option value="521">
+                Tea maker Job</option>
+              <option value="267">
+                Teacher Job</option>
+              <option value="272">
+                Teaching Assistant / LSA Job</option>
+              <option value="776">
+                Teaching associate Job</option>
+              <option value="310">
+                Team Leader Job</option>
+              <option value="802">
+                Team member</option>
+              <option value="34">
+                Technical Analyst Job</option>
+              <option value="765">
+                Technical assistant Job</option>
+              <option value="841">
+                technical evaluator Job</option>
+              <option value="304">
+                Telecaller/Telemarketing Executive Job</option>
+              <option value="640">
+                Tent Support Administration Job</option>
+              <option value="324">
+                Tentor Job</option>
+              <option value="739">
+                Thandhoori maker Job</option>
+              <option value="817">
+                Three heeler driver Job</option>
+              <option value="717">
+                Three wheeler machanic Job</option>
+              <option value="638">
+                Ticket Executive Job</option>
+              <option value="651">
+                TLT Operator Job</option>
+              <option value="59">
+                Tourist Guide Job</option>
+              <option value="74">
+                Training / Faculty Jobs</option>
+              <option value="772">
+                Translator Jobs</option>
+              <option value="791">
+                Travel Agent Job</option>
+              <option value="58">
+                Travel Management & Ticketing / Travel Desk Operat</option>
+              <option value="864">
+                TTC Trainer job</option>
+              <option value="843">
+                Turner Job</option>
+              <option value="639">
+                TV Technician Job</option>
+              <option value="777">
+                Two wheeler machanic Job</option>
+              <option value="641">
+                Two Wheeler Mechanic</option>
+              <option value="673">
+                Tyre Retreading Job</option>
+              <option value="645">
+                UI Designer Job</option>
+              <option value="723">
+                UI developer Job</option>
+              <option value="785">
+                Upholsterer Job</option>
+              <option value="591">
+                upolsery Job</option>
+              <option value="793">
+                Utility Job</option>
+              <option value="643">
+                UX Designer Job</option>
+              <option value="644">
+                Vegetable Cutter Job</option>
+              <option value="719">
+                Verification executive Job</option>
+              <option value="774">
+                Veterinary Doctor Job</option>
+              <option value="824">
+                VFX supervisor Job</option>
+              <option value="374">
+                Video Editor Job</option>
+              <option value="760">
+                Videographer Job</option>
+              <option value="642">
+                Visual Basic 6 Developer Job</option>
+              <option value="705">
+                Vlogger Job</option>
+              <option value="62">
+                Waiter / Restaurant Captains / F&B Service Job</option>
+              <option value="562">
+                Warden Job</option>
+              <option value="714">
+                warehouse operator Job</option>
+              <option value="439">
+                Washing Job</option>
+              <option value="784">
+                Watch Repairer Job</option>
+              <option value="581">
+                watch technician job</option>
+              <option value="827">
+                Water heater technician Job</option>
+              <option value="559">
+                Water Purifier Technician Job</option>
+              <option value="778">
+                Water Treatment Equipment Service and Supplier Job</option>
+              <option value="353">
+                Web Designer Job</option>
+              <option value="646">
+                Web Designing Job</option>
+              <option value="294">
+                Web site developer Job</option>
+              <option value="392">
+                Wedding Album Designer Job</option>
+              <option value="543">
+                Welcome Girl Job</option>
+              <option value="141">
+                Welders Job</option>
+              <option value="780">
+                Wheel alignment technician Job</option>
+              <option value="575">
+                Wheel balancing and alignment Job</option>
+              <option value="358">
+                Wordpress Developer Job</option>
+              <option value="680">
+                Workshop manager Job</option>
+              <option value="877">
+                X-ray technician job</option>
+              <option value="318">
+                X-ray technician Job</option>
+              </select>
+              
+              
+            </div>
+
+            <div class="box-section-filter">
+              <h2 class="fh-left">Location
+              </h2><div class="height-5px"></div><br>
+              <select name="" class="job-type" >
+                <option selected></option>
+                <option value="">Select Location</option>
+                <option  value="408">Adilabad, Adilabad, Telangana</option>
+                <option  value="1063">Adoor, Pathanamthitta, Kerala</option>
+                <option  value="529">Agar Malwa, Agar Malwa, Madhya Pradesh </option>
+                <option selected value="1164">Agasteeswaram, Kanyakumari, Tamil Nadu</option>
+                <option  value="726">Agra, Agra, Uttar Pradesh </option>
+                <option  value="627">Ahmedabad, Ahmedabad, Gujarat </option>
+                <option  value="471">Ahmednagar, Ahmednagar, Maharashtra</option>
+                <option  value="964">Aizawl, Aizawl, Mizoram </option>
+                <option  value="660">Ajmer, Chandel, Manipur </option>
+                <option  value="442">Akola, Akola, Maharashtra</option>
+                <option  value="1093">Alandur, Chennai, Tamil Nadu</option>
+                <option  value="1210">Alangudi, Pudukottai, Tamil Nadu</option>
+                <option  value="1253">Alangulam, Tenkasi, Tamil Nadu</option>
+                <option  value="16">Alappuzha, Alappuzha, Kerala</option>
+                <option  value="1058">Alathur, Palakkad , Kerala</option>
+                <option  value="727">Aligarh, Aligarh, Uttar Pradesh </option>
+                <option  value="622">Alipurduar, Alipurduar, West Bengal </option>
+                <option  value="530">Alirajpur, Alirajpur , Madhya Pradesh </option>
+                <option  value="728">Allahabad, Allahabad, Uttar Pradesh </option>
+                <option  value="861">Almora, Almora, Uttarakhand </option>
+                <option  value="1022">Aluva, Ernakulam, Kerala</option>
+                <option  value="661">Alwar, Alwar, Rajasthan </option>
+                <option  value="704">Ambala, Ambala, Haryana </option>
+                <option  value="1278">Ambasamuthiram, Tirunelveli, Tamil Nadu</option>
+                <option  value="1094">Ambattur, Chennai, Tamil Nadu</option>
+                <option  value="730">Ambedkar Nagar, Ambedkar Nagar, Uttar Pradesh </option>
+                <option  value="1311">Ambur, Tirupattur, Tamil Nadu</option>
+                <option  value="729">Amethi, Amethi, Uttar Pradesh </option>
+                <option  value="1095">Aminjikarai, Chennai, Tamil Nadu</option>
+                <option  value="443">Amravati, Guntur, Andhra Pradesh </option>
+                <option  value="628">Amreli, Amreli, Gujarat </option>
+                <option  value="802">Amritsar, Amritsar, Punjab </option>
+                <option  value="731">Amroha, Amroha, Uttar Pradesh </option>
+                <option  value="1342">Anaicut, Vellore, Tamil Nadu</option>
+                <option  value="1109">Anaimalai, Coimbatore, Tamil Nadu</option>
+                <option  value="629">Anand, Anand, Gujarat </option>
+                <option  value="395">Anantapur, Anantapur, Andhra Pradesh </option>
+                <option  value="886">Anantnag, Anantnag, Jammu and Kashmir </option>
+                <option  value="1176">Anchetty, Krishnagiri, Tamil Nadu</option>
+                <option  value="1082">Andimadam, Ariyalur, Tamil Nadu</option>
+                <option  value="1268">Andipatti, Theni, Tamil Nadu</option>
+                <option  value="500">Angul, Angul, Odisha </option>
+                <option  value="999">Anjaw, Anjaw, Arunachal Pradesh </option>
+                <option  value="1110">Annur, Coimbatore, Tamil Nadu</option>
+                <option  value="1145">Anthiyur, Erode, Tamil Nadu</option>
+                <option  value="531">Anuppur, Anuppur, Madhya Pradesh </option>
+                <option  value="1229">Arakkonam, Ranipet, Tamil Nadu</option>
+                <option  value="1294">Arani, Tiruvannamalai, Tamil Nadu</option>
+                <option  value="1211">Aranthangi, Pudukottai, Tamil Nadu</option>
+                <option  value="823">Araria, Araria, Bihar </option>
+                <option  value="1170">Aravakurichi, Karur, Tamil Nadu</option>
+                <option  value="630">Aravalli, Aravalli, Gujarat </option>
+                <option  value="1230">Arcot, Ranipet, Tamil Nadu</option>
+                <option  value="339">Ariyalur, Ariyalur, Tamil Nadu</option>
+                <option  value="1355">Arupukottai, Virudhunagar, Tamil Nadu</option>
+                <option  value="824">Arwal, Arwal, Bihar </option>
+                <option  value="532">Ashoknagar, Ashoknagar, Madhya Pradesh </option>
+                <option  value="1071">Attingal, Trivandrum (Thiruvananthapuram), Kerala</option>
+                <option  value="1135">Attur, Dindigul, Tamil Nadu</option>
+                <option  value="732">Auraiya, Auraiya, Uttar Pradesh </option>
+                <option  value="447">Aurangabad, Aurangabad, Maharashtra</option>
+                <option  value="825">Aurangabad (Bihar), Aurangabad, Bihar </option>
+                <option  value="1212">Avadaiyarkoil, Pudukottai, Tamil Nadu</option>
+                <option  value="1286">Avadi, Tiruvallur, Tamil Nadu</option>
+                <option  value="1314">Avinashi, Tiruppur, Tamil Nadu</option>
+                <option  value="1096">Ayanavaram, Chennai, Tamil Nadu</option>
+                <option  value="733">Azamgarh, Azamgarh, Uttar Pradesh </option>
+                <option  value="1364">Bagalkote, Bagalkote, Karnataka</option>
+                <option  value="862">Bageshwar, Bageshwar, Uttarakhand </option>
+                <option  value="734">Baghpat, Baghpat, Uttar Pradesh </option>
+                <option  value="735">Bahraich, Bahraich, Uttar Pradesh </option>
+                <option  value="923">Baksa, Baksa, Assam </option>
+                <option  value="533">Balaghat, Balaghat, Madhya Pradesh </option>
+                <option  value="502">Balangir, Balangir, Odisha </option>
+                <option  value="736">Ballia, Ballia, Uttar Pradesh </option>
+                <option  value="489">Balod, Balod, Chhattisgarh </option>
+                <option  value="490">Baloda Bazar-Bhatapara, Baloda Bazar, Chhattisgarh </option>
+                <option  value="737">Balrampur, Balrampur, Uttar Pradesh </option>
+                <option  value="482">Balrampur-Ramanujganj, Balrampur, Chhattisgarh </option>
+                <option  value="631">Banaskantha, Banaskantha, Gujarat </option>
+                <option  value="738">Banda, Banda, Uttar Pradesh </option>
+                <option  value="888">Bandipora, Bandipora, Jammu and Kashmir </option>
+                <option  value="826">Banka, Banka, Bihar </option>
+                <option  value="603">Bankura, Bankura, West Bengal </option>
+                <option  value="662">Banswara, Banswara, Rajasthan </option>
+                <option  value="739">Barabanki, Barabanki, Uttar Pradesh </option>
+                <option  value="889">Baramulla, Baramulla, Jammu and Kashmir </option>
+                <option  value="663">Baran, Baran, Rajasthan </option>
+                <option  value="604">Bardhaman, Purba Bardhaman, West Bengal </option>
+                <option  value="740">Bareilly, Bareilly, Uttar Pradesh </option>
+                <option  value="503">Bargarh, Bargarh, Odisha </option>
+                <option  value="1177">Bargur, Krishnagiri, Tamil Nadu</option>
+                <option  value="664">Barmer, Barmer, Rajasthan </option>
+                <option  value="803">Barnala, Barnala, Punjab </option>
+                <option  value="924">Barpeta, Barpeta, Assam </option>
+                <option  value="534">Barwani, Barwani , Madhya Pradesh </option>
+                <option  value="497">Bastar, Bastar, Chhattisgarh </option>
+                <option  value="741">Basti, Basti, Uttar Pradesh </option>
+                <option  value="804">Bathinda, Bathinda, Punjab </option>
+                <option  value="448">Beed, Beed, Maharashtra</option>
+                <option  value="827">Begusarai, Begusarai, Bihar </option>
+                <option  value="368">Belagavi, Belagavi, Karnataka</option>
+                <option  value="369">Bellary, Bellary, Karnataka</option>
+                <option  value="488">Bemetara, Bemetara, Chhattisgarh </option>
+                <option  value="367">Bengaluru Rural, Bangalore Rural, Karnataka</option>
+                <option  value="366">Bengaluru Urban, Bangalore Urban, Karnataka</option>
+                <option  value="535">Betul, Betul, Madhya Pradesh </option>
+                <option  value="409">Bhadradri Kothagudem, Bhadradri Kothagudem, Telangana</option>
+                <option  value="504">Bhadrak, Bhadrak, Odisha </option>
+                <option  value="828">Bhagalpur, Bhagalpur, Bihar </option>
+                <option  value="462">Bhandara, Bhandara, Maharashtra</option>
+                <option  value="665">Bharatpur, Bharatpur, Rajasthan </option>
+                <option  value="633">Bharuch, Bharuch, Gujarat </option>
+                <option  value="1146">Bhavani, Erode, Tamil Nadu</option>
+                <option  value="634">Bhavnagar, Bhavnagar, Gujarat </option>
+                <option  value="666">Bhilwara, Bhilwara, Rajasthan </option>
+                <option  value="536">Bhind, Bhind, Madhya Pradesh </option>
+                <option  value="705">Bhiwani, Bhiwani, Haryana </option>
+                <option  value="829">Bhojpur, Bhojpur, Bihar </option>
+                <option  value="537">Bhopal, Bhopal, Madhya Pradesh </option>
+                <option  value="1120">Bhuvanagir, Cuddalore, Tamil Nadu</option>
+                <option  value="370">Bidar, Bidar, Karnataka</option>
+                <option  value="494">Bijapur, Vijayapur, Karnataka</option>
+                <option  value="742">Bijnor, Bijnor, Uttar Pradesh </option>
+                <option  value="667">Bikaner, Bikaner, Rajasthan </option>
+                <option  value="475">Bilaspur, Bilaspur, Chhattisgarh </option>
+                <option  value="874">Bilaspur (H.P), Bilaspur, Himachal Pradesh</option>
+                <option  value="605">Birbhum, Birbhum, West Bengal </option>
+                <option  value="972">Bishnupur, Bankura, West Bengal </option>
+                <option  value="950">Biswanath, Biswanath , Assam </option>
+                <option  value="1269">Bodinayakanur, Theni, Tamil Nadu</option>
+                <option  value="580">Bokaro, Bokaro, Jharkhand </option>
+                <option  value="925">Bongaigaon, Bongaigaon, Assam </option>
+                <option  value="632">Botad, Botad, Gujarat </option>
+                <option  value="501">Boudh, Boudh, Odisha </option>
+                <option  value="1260">Budalur, Thanjavur, Tamil Nadu</option>
+                <option  value="743">Budaun, Badaun, Uttar Pradesh </option>
+                <option  value="887">Budgam, Budgam, Jammu and Kashmir </option>
+                <option  value="744">Bulandshahr, Bulandshahr, Uttar Pradesh </option>
+                <option  value="444">Buldana, Buldhana, Maharashtra</option>
+                <option  value="668">Bundi, Bundi, Rajasthan </option>
+                <option  value="623">Burdwan, Paschim Bardhaman, West Bengal </option>
+                <option  value="538">Burhanpur, Burhanpur , Madhya Pradesh </option>
+                <option  value="830">Buxar, Buxar, Bihar </option>
+                <option  value="926">Cachar, Cachar, Assam </option>
+                <option  value="693">Central Delhi, Central Delhi, Delhi </option>
+                <option  value="1075">Chalakudy, Thrissur, Kerala</option>
+                <option  value="372">Chamarajanagar, Chamarajanagar, Karnataka</option>
+                <option  value="875">Chamba, Chamba, Himachal Pradesh</option>
+                <option  value="863">Chamoli, Chamoli, Uttarakhand </option>
+                <option  value="864">Champawat, Champawat, Uttarakhand </option>
+                <option  value="965">Champhai, Champhai, Mizoram </option>
+                <option  value="745">Chandauli, Chandauli, Uttar Pradesh </option>
+                <option  value="973">Chandel, Chandel, Manipur </option>
+                <option  value="463">Chandrapur, Chandrapur, Maharashtra</option>
+                <option  value="1044">Changanasserry, Kottayam, Kerala</option>
+                <option  value="1000">Changlang, Changlang, Arunachal Pradesh </option>
+                <option  value="951">Charaideo, Charaideo, Assam </option>
+                <option  value="725">Charkhi Dadri, Charkhi Dadri, Haryana </option>
+                <option  value="581">Chatra, Chatra, Jharkhand </option>
+                <option  value="1076">Chavakkad, Thrissur, Kerala</option>
+                <option  value="340">Chengalpattu, Chengalpattu, Tamil Nadu</option>
+                <option  value="1295">Chengam, Tiruvannamalai, Tamil Nadu</option>
+                <option  value="1017">Chengannur, Alappuzha, Kerala</option>
+                <option  value="320">Chennai, Chennai, Tamil Nadu</option>
+                <option  value="1279">Cheranmahadevi, Tirunelveli, Tamil Nadu</option>
+                <option  value="1018">Cherthala, Alappuzha, Kerala</option>
+                <option  value="1296">Chetpet, Tiruvannamalai, Tamil Nadu</option>
+                <option  value="1085">Cheyyur, Chengalpattu, Tamil Nadu</option>
+                <option  value="539">Chhatarpur, Chhatarpur , Madhya Pradesh </option>
+                <option  value="540">Chhindwara, Chhindwara, Madhya Pradesh </option>
+                <option  value="635">Chhota Udaipur, Chhota Udaipur, Gujarat </option>
+                <option  value="1121">Chidambaram, Cuddalore, Tamil Nadu</option>
+                <option  value="373">Chikballapur, Chikballapur, Karnataka</option>
+                <option  value="374">Chikkamagaluru, Chickmagalur, Karnataka</option>
+                <option  value="1154">Chinnaselam, Kallakurichi, Tamil Nadu</option>
+                <option  value="927">Chirang, Chirang, Assam </option>
+                <option  value="375">Chitradurga, Chitradurga, Karnataka</option>
+                <option  value="746">Chitrakoot, Satna, Madhya Pradesh </option>
+                <option  value="396">Chittoor, Chittoor, Andhra Pradesh </option>
+                <option  value="669">Chittorgarh, Chittorgarh, Rajasthan </option>
+                <option  value="1059">Chittur, Palakkad , Kerala</option>
+                <option  value="974">Churachandpur, Churachandpur, Manipur </option>
+                <option  value="670">Churu, Churu, Rajasthan </option>
+                <option  value="321">Coimbatore, Coimbatore, Tamil Nadu</option>
+                <option  value="1111">Coimbatore(North), Coimbatore, Tamil Nadu</option>
+                <option  value="1112">Coimbatore(South), Coimbatore, Tamil Nadu</option>
+                <option  value="606">Cooch Behar, Cooch Behar, West Bengal </option>
+                <option  value="1272">Coonoor, Nilgiris, Tamil Nadu</option>
+                <option  value="341">Cuddalore, Cuddalore, Tamil Nadu</option>
+                <option  value="505">Cuttack, Cuttack, Odisha </option>
+                <option  value="636">Dahod, Dahod, Gujarat </option>
+                <option  value="607">Dakshin Dinajpur, Dakshin Dinajpur, West Bengal </option>
+                <option  value="376">Dakshina Kannada, Dakshina Kannada, Karnataka</option>
+                <option  value="541">Damoh, Damoh, Madhya Pradesh </option>
+                <option  value="831">Darbhanga, Darbhanga, Bihar </option>
+                <option  value="608">Darjeeling, Darjeeling, West Bengal </option>
+                <option  value="928">Darrang, Darrang, Assam </option>
+                <option  value="542">Datia, Datia, Madhya Pradesh </option>
+                <option  value="671">Dausa, Dausa, Rajasthan </option>
+                <option  value="377">Davanagere, Davanagere, Karnataka</option>
+                <option  value="865">Dehradun, Dehradun, Uttarakhand </option>
+                <option  value="329">Delhi, New Delhi, Delhi </option>
+                <option  value="1178">Denkanikottai, Krishnagiri, Tamil Nadu</option>
+                <option  value="506">Deogarh, Debagarh, Odisha </option>
+                <option  value="582">Deoghar, Deoghar, Jharkhand </option>
+                <option  value="747">Deoria, Deoria, Uttar Pradesh </option>
+                <option  value="1244">Devakottai, Sivagangai, Tamil Nadu</option>
+                <option  value="637">Devbhoomi Dwarka, Devbhoomi Dwarka, Gujarat </option>
+                <option  value="1028">Devikulam, Idukki, Kerala</option>
+                <option  value="543">Dewas, Dewas, Madhya Pradesh </option>
+                <option  value="956">Dhalai, Dhalai, Tripura </option>
+                <option  value="493">Dhamtari, Dhamtari, Chhattisgarh </option>
+                <option  value="583">Dhanbad, Dhanbad, Jharkhand </option>
+                <option  value="544">Dhar, Dhar, Madhya Pradesh </option>
+                <option  value="1315">Dharapuram, Tiruppur, Tamil Nadu</option>
+                <option  value="335">Dharmapuri, Dharmapuri, Tamil Nadu</option>
+                <option  value="378">Dharwad, Dharwad, Karnataka</option>
+                <option  value="929">Dhemaji, Dhemaji, Assam </option>
+                <option  value="507">Dhenkanal, Dhenkanal, Odisha </option>
+                <option  value="672">Dholpur, Dholpur, Rajasthan </option>
+                <option  value="930">Dhubri, Dhubri, Assam </option>
+                <option  value="468">Dhule, Dhule	, Maharashtra</option>
+                <option  value="931">Dibrugarh, Dibrugarh, Assam </option>
+                <option  value="932">Dima Hasao, Dima Hasao, Assam </option>
+                <option  value="988">Dimapur, Dimapur, Nagaland </option>
+                <option  value="1136">Dindigul East, Dindigul, Tamil Nadu</option>
+                <option  value="1137">Dindigul West, Dindigul, Tamil Nadu</option>
+                <option  value="545">Dindori, Dindori, Madhya Pradesh </option>
+                <option  value="325">Dindugal, Dindigul, Tamil Nadu</option>
+                <option  value="890">Doda, Doda, Jammu and Kashmir </option>
+                <option  value="584">Dumka, Dumka, Jharkhand </option>
+                <option  value="673">Dungarpur, Dungarpur, Rajasthan </option>
+                <option  value="476">Durg, Durg, Chhattisgarh </option>
+                <option  value="832">East Champaran, East Champaran, Bihar </option>
+                <option  value="694">East Delhi, East Delhi, Delhi </option>
+                <option  value="912">East Garo Hills, East Garo Hills, Meghalaya </option>
+                <option  value="397">East Godavari, East Godavari, Andhra Pradesh </option>
+                <option  value="917">East Jaintia Hills, East Jaintia Hills, Meghalaya </option>
+                <option  value="1001">East Kameng, East Kameng, Arunachal Pradesh </option>
+                <option  value="919">East Khasi Hills, East Khasi Hills, Meghalaya </option>
+                <option  value="1002">East Siang, East Siang, Arunachal Pradesh </option>
+                <option  value="908">East Sikkim, East Sikkim, Sikkim </option>
+                <option  value="585">East Singhbhum, East Singhbhum, Jharkhand </option>
+                <option  value="1233">Edapady, Salem, Tamil Nadu</option>
+                <option  value="1097">Egmore, Chennai, Tamil Nadu</option>
+                <option  value="1333">Eral, Thoothukudi, Tamil Nadu</option>
+                <option  value="251">Ernakulam, Ernakulam, Kerala</option>
+                <option  value="342">Erode, Erode, Tamil Nadu</option>
+                <option  value="748">Etah, Etah, Uttar Pradesh </option>
+                <option  value="749">Etawah, Etawah, Uttar Pradesh </option>
+                <option  value="1334">Ettayapuram, Thoothukudi, Tamil Nadu</option>
+                <option  value="750">Faizabad, Firozabad, Uttar Pradesh </option>
+                <option  value="706">Faridabad, Faridabad, Haryana </option>
+                <option  value="805">Faridkot, Faridkot, Punjab </option>
+                <option  value="751">Farrukhabad, Farrukhabad, Uttar Pradesh </option>
+                <option  value="707">Fatehabad, Fatehabad, Haryana </option>
+                <option  value="806">Fatehgarh Sahib, Fatehgarh Sahib, Punjab </option>
+                <option  value="752">Fatehpur, Fatehpur, Uttar Pradesh </option>
+                <option  value="807">Fazilka, Fazilka, Punjab </option>
+                <option  value="753">Firozabad, Firozabad, Uttar Pradesh </option>
+                <option  value="808">Firozpur, Firozpur, Punjab </option>
+                <option  value="379">Gadag, Gadag, Karnataka</option>
+                <option  value="464">Gadchiroli, Gadchiroli, Maharashtra</option>
+                <option  value="509">Gajapati, Gajapati, Odisha </option>
+                <option  value="1213">Gandarvakottai, Pudukottai, Tamil Nadu</option>
+                <option  value="891">Ganderbal, Ganderbal, Jammu and Kashmir </option>
+                <option  value="638">Gandhinagar, Gandhinagar, Gujarat </option>
+                <option  value="1234">Gangavalli, Salem, Tamil Nadu</option>
+                <option  value="508">Ganjam, Ganjam, Odisha </option>
+                <option  value="586">Garhwa, Garhwa, Jharkhand </option>
+                <option  value="491">Gariaband, Gariaband, Chhattisgarh </option>
+                <option  value="754">Gautam Buddha Nagar, Gautam Buddha Nagar, Uttar Pradesh </option>
+                <option  value="833">Gaya, Gaya, Bihar </option>
+                <option  value="755">Ghaziabad, Ghaziabad, Uttar Pradesh </option>
+                <option  value="756">Ghazipur, Ghazipur, Uttar Pradesh </option>
+                <option  value="1347">Gingee, Viluppuram, Tamil Nadu</option>
+                <option  value="639">Gir Somnath, Gir Somnath, Gujarat </option>
+                <option  value="587">Giridih, Giridih, Jharkhand </option>
+                <option  value="326">Goa, North Goa, Goa </option>
+                <option  value="933">Goalpara, Goalpara, Assam </option>
+                <option  value="1147">Gobichettipalayam, Erode, Tamil Nadu</option>
+                <option  value="934">Golaghat, Golaghat, Assam </option>
+                <option  value="957">Gomati, Gomati	, Tripura </option>
+                <option  value="757">Gonda, Gonda, Uttar Pradesh </option>
+                <option  value="465">Gondia, Gondia, Maharashtra</option>
+                <option  value="834">Gopalganj, Gopalganj, Bihar </option>
+                <option  value="758">Gorakhpur, Gorkakhpur, Uttar Pradesh </option>
+                <option  value="1273">Gudalur, Nilgiris, Tamil Nadu</option>
+                <option  value="1343">Gudiyatham, Vellore, Tamil Nadu</option>
+                <option  value="1098">Guindy, Chennai, Tamil Nadu</option>
+                <option  value="1138">Gujiliamparai, Dindigul, Tamil Nadu</option>
+                <option  value="588">Gumla, Gumla, Jharkhand </option>
+                <option  value="1287">Gummidipoondi, Tiruvallur, Tamil Nadu</option>
+                <option  value="547">Guna, Guna, Madhya Pradesh </option>
+                <option  value="398">Guntur, Guntur, Andhra Pradesh </option>
+                <option  value="809">Gurdaspur, Gurdaspur, Punjab </option>
+                <option  value="708">Gurugram, Gurugram, Haryana </option>
+                <option  value="548">Gwalior, Gwalior, Madhya Pradesh </option>
+                <option  value="935">Hailakandi, Hailakandi, Assam </option>
+                <option  value="759">Hamirpur, Hamirpur, Himachal Pradesh</option>
+                <option  value="876">Hamirpur (H.P), Hamirpur, Himachal Pradesh</option>
+                <option  value="675">Hanumangarh, Hanumangarh, Rajasthan </option>
+                <option  value="549">Harda, Harda, Madhya Pradesh </option>
+                <option  value="760">Hardoi, Hardoi, Uttar Pradesh </option>
+                <option  value="866">Haridwar, Haridwar, Uttarakhand </option>
+                <option  value="1019">Haripad, Alappuzha, Kerala</option>
+                <option  value="1129">Harur, Dharmapuri, Tamil Nadu</option>
+                <option  value="381">Hassan, Hassan, Karnataka</option>
+                <option  value="761">Hathras (Mahamaya Nagar), Hathras, Uttar Pradesh </option>
+                <option  value="382">Haveri, Haveri, Karnataka</option>
+                <option  value="589">Hazaribagh, Hazaribagh, Jharkhand </option>
+                <option  value="454">Hingoli, Hingoli	, Maharashtra</option>
+                <option  value="709">Hisar, Hisar, Haryana </option>
+                <option  value="952">Hojai, Hojai, Assam </option>
+                <option  value="609">Hooghly, Hooghly, West Bengal </option>
+                <option  value="1038">Hosdurg, Kasargod, Kerala</option>
+                <option  value="550">Hoshangabad, Hoshangabad, Madhya Pradesh </option>
+                <option  value="810">Hoshiarpur, Hoshiarpur, Punjab </option>
+                <option  value="1179">Hosur, Krishnagiri, Tamil Nadu</option>
+                <option  value="610">Howrah, Howrah, West Bengal </option>
+                <option  value="410">Hyderabad, Hyderabad, Telangana</option>
+                <option  value="318">Hydrabad, Hyderabad, Telangana</option>
+                <option  value="15">Idukki, Idukki, Kerala</option>
+                <option  value="1245">Ilayankudi, Sivagangai, Tamil Nadu</option>
+                <option  value="1214">Illuppur, Pudukottai, Tamil Nadu</option>
+                <option  value="975">Imphal East, Imphal East, Manipur </option>
+                <option  value="976">Imphal West, Imphal West, Manipur </option>
+                <option  value="551">Indore, Indore, Madhya Pradesh </option>
+                <option  value="1074">Irinjalakuda, Thrissur, Kerala</option>
+                <option  value="1033">Iritty, Kannur, Kerala</option>
+                <option  value="552">Jabalpur, Jabalpur , Madhya Pradesh </option>
+                <option  value="512">Jagatsinghapur, Jagatsinghpur, Odisha </option>
+                <option  value="411">Jagitial, Jagitial, Telangana</option>
+                <option  value="676">Jaipur, Jaipur, Rajasthan </option>
+                <option  value="677">Jaisalmer, Jaisalmer, Rajasthan </option>
+                <option  value="511">Jajpur, Jajpur, Odisha </option>
+                <option  value="811">Jalandhar, Jalandhar, Punjab </option>
+                <option  value="762">jalaun, Jhansi, Uttar Pradesh </option>
+                <option  value="469">Jalgaon, Jalgaon, Maharashtra</option>
+                <option  value="449">Jalna, Jalna, Maharashtra</option>
+                <option  value="678">Jalore, Jalor, Rajasthan </option>
+                <option  value="611">Jalpaiguri, Jalpaiguri, West Bengal </option>
+                <option  value="892">Jammu, Jammu, Jammu and Kashmir </option>
+                <option  value="640">Jamnagar, Jamnagar, Gujarat </option>
+                <option  value="590">Jamtara, Jamtara, Jharkhand </option>
+                <option  value="835">Jamui, Jamui, Bihar </option>
+                <option  value="1297">Jamunamarathoor, Tiruvannamalai, Tamil Nadu</option>
+                <option  value="412">Jangaon, Jangaon, Telangana</option>
+                <option  value="485">Janjgirâ€“Champa, Janjgir-Champa, Chhattisgarh </option>
+                <option  value="483">Jashpur, Jashpur, Chhattisgarh </option>
+                <option  value="763">Jaunpur, Jaunpur, Uttar Pradesh </option>
+                <option  value="413">Jayashankar Bhupalpally, Jayashankar Bhupalpally, Telangana</option>
+                <option  value="836">Jehanabad, Jehanabad, Bihar </option>
+                <option  value="553">Jhabua, Jhabua, Madhya Pradesh </option>
+                <option  value="710">Jhajjar, Jhajjar, Haryana </option>
+                <option  value="679">Jhalawar, Jhalawar, Rajasthan </option>
+                <option  value="764">Jhansi, Jhansi, Uttar Pradesh </option>
+                <option  value="624">Jhargram, Jhargram, West Bengal </option>
+                <option  value="510">Jharsuguda, Jharsuguda, Odisha </option>
+                <option  value="680">Jhunjhunu, Jhunjhunu, Rajasthan </option>
+                <option  value="711">Jind, Jind, Haryana </option>
+                <option  value="986">Jiribam, Jiribam, Manipur </option>
+                <option  value="681">Jodhpur, Jodhpur, Rajasthan </option>
+                <option  value="414">Jogulamba Gadwal, Jogulamba Gadwal, Telangana</option>
+                <option  value="936">Jorhat, Jorhat, Assam </option>
+                <option  value="641">Junagadh, Junagadh, Gujarat </option>
+                <option  value="766">Jyotiba Phule Nagar, Amroha, Uttar Pradesh </option>
+                <option  value="1345">K V Kuppam, Vellore, Tamil Nadu</option>
+                <option  value="487">Kabirdham, Kabirdham, Chhattisgarh </option>
+                <option  value="1221">Kadaladi, Ramanathapuram, Tamil Nadu</option>
+                <option  value="1171">Kadavur, Karur, Tamil Nadu</option>
+                <option  value="1235">Kadayampatti, Salem, Tamil Nadu</option>
+                <option  value="1254">Kadayanallur, Tenkasi, Tamil Nadu</option>
+                <option  value="837">Kaimur, Kaimur, Bihar </option>
+                <option  value="712">Kaithal, Karnal, Haryana </option>
+                <option  value="987">Kakching, Kakching, Manipur </option>
+                <option  value="380">Kalaburagi, Kalaburagi, Karnataka</option>
+                <option  value="515">Kalahandi, Kalahandi, Odisha </option>
+                <option  value="1246">Kalaiyarkoil, Sivagangai, Tamil Nadu</option>
+                <option  value="1298">Kalasapakkam, Tiruvannamalai, Tamil Nadu</option>
+                <option  value="625">Kalimpong, Kalimpong, West Bengal </option>
+                <option  value="1165">Kalkulam, Kanyakumari, Tamil Nadu</option>
+                <option  value="343">Kallakurichi, Kallakurichi, Tamil Nadu</option>
+                <option  value="1183">Kalligudi, Madurai, Tamil Nadu</option>
+                <option  value="1081">Kalpetta, Wayanad, Kerala</option>
+                <option  value="1155">KALVARAYAN HILLS, Kallakurichi, Tamil Nadu</option>
+                <option  value="415">Kamareddy, Kamareddy, Telangana</option>
+                <option  value="985">Kamjong, Kamjong, Manipur </option>
+                <option  value="937">Kamrup, Kamrup, Assam </option>
+                <option  value="938">Kamrup Metropolitan, Kamrup Metropolitan, Assam </option>
+                <option  value="1222">Kamuthi, Ramanathapuram, Tamil Nadu</option>
+                <option  value="344">Kanchipuram, Kanchipuram, Tamil Nadu</option>
+                <option  value="1348">Kandachipuram, Viluppuram, Tamil Nadu</option>
+                <option  value="516">Kandhamal, Kandhamal, Odisha </option>
+                <option  value="1316">Kangayam, Tiruppur, Tamil Nadu</option>
+                <option  value="981">Kangpokpi, Kangpokpi (Sadar Hills), Manipur </option>
+                <option  value="877">Kangra, Kangra, Himachal Pradesh</option>
+                <option  value="1045">Kanjirappally, Kottayam, Kerala</option>
+                <option  value="496">Kanker, Kanker, Chhattisgarh </option>
+                <option  value="767">Kannauj, Kannauj, Uttar Pradesh </option>
+                <option  value="10">Kannur, Kannur, Kerala</option>
+                <option  value="768">Kanpur Dehat (Ramabai Nagar), Kanpur Dehat, Uttar Pradesh </option>
+                <option  value="769">Kanpur Nagar, Kanpur Nagar, Uttar Pradesh </option>
+                <option  value="770">Kanshiram Nagar, Kanshi Ram Nagar, Uttar Pradesh </option>
+                <option  value="812">Kapurthala, Kapurthala, Punjab </option>
+                <option  value="1247">Karaikudi, Sivagangai, Tamil Nadu</option>
+                <option  value="1215">Karambakudi, Pudukottai, Tamil Nadu</option>
+                <option  value="682">Karauli, Karauli, Rajasthan </option>
+                <option  value="939">Karbi Anglong, Karbi Anglong, Assam </option>
+                <option  value="893">Kargil, Kargil, Ladakh</option>
+                <option  value="1356">Kariapattai, Virudhunagar, Tamil Nadu</option>
+                <option  value="1130">Karimangalam, Dharmapuri, Tamil Nadu</option>
+                <option  value="940">Karimganj, Karimganj, Assam </option>
+                <option  value="416">Karimnagar, Karimnagar, Telangana</option>
+                <option  value="713">Karnal, Karnal, Haryana </option>
+                <option  value="1039">Karunagappally, Kollam, Kerala</option>
+                <option  value="345">Karur, Karur, Tamil Nadu</option>
+                <option  value="19">Kasaragod, Kasargod, Kerala</option>
+                <option  value="894">Kathua, Kathua, Jammu and Kashmir </option>
+                <option  value="838">Katihar, Katihar, Bihar </option>
+                <option  value="554">Katni, Katni, Madhya Pradesh </option>
+                <option  value="1344">Katpadi, Vellore, Tamil Nadu</option>
+                <option  value="1069">Kattakada, Trivandrum (Thiruvananthapuram), Kerala</option>
+                <option  value="1122">Kattumannarkoil, Cuddalore, Tamil Nadu</option>
+                <option  value="771">Kaushambi, Kaushambi, Uttar Pradesh </option>
+                <option  value="1088">Kayamkulam, Alappuzha, Kerala</option>
+                <option  value="1335">Kayathar, Thoothukudi, Tamil Nadu</option>
+                <option  value="518">Kendrapara, , </option>
+                <option  value="514">Keonjhar, Kendujhar, Odisha </option>
+                <option  value="839">Khagaria, Khagaria, Bihar </option>
+                <option  value="417">Khammam, Khammam, Telangana</option>
+                <option  value="546">Khandwa, Khandwa , Madhya Pradesh </option>
+                <option  value="579">khargone, Khargone, Madhya Pradesh </option>
+                <option  value="642">Kheda, Kheda, Gujarat </option>
+                <option  value="513">Khordha, Khordha, Odisha </option>
+                <option  value="958">Khowai, Khowai, Tripura </option>
+                <option  value="591">Khunti, Khunti, Jharkhand </option>
+                <option  value="1223">Kilakarai, Ramanathapuram, Tamil Nadu</option>
+                <option  value="1166">Killiyoor, Kanyakumari, Tamil Nadu</option>
+                <option  value="1299">Kilpennathur, Tiruvannamalai, Tamil Nadu</option>
+                <option  value="1194">Kilvelur, Nagapattinam, Tamil Nadu</option>
+                <option  value="1113">Kinathukadavu, Coimbatore, Tamil Nadu</option>
+                <option  value="878">Kinnaur, Kinnaur, Himachal Pradesh</option>
+                <option  value="989">Kiphire, Kiphire, Nagaland </option>
+                <option  value="840">Kishanganj, Kishanganj, Bihar </option>
+                <option  value="895">Kishtwar, Kishtwar, Jammu and Kashmir </option>
+                <option  value="1023">Kochi, Ernakulam, Kerala</option>
+                <option  value="383">Kodagu, Kodagu, Karnataka</option>
+                <option  value="1139">Kodaikanal, Dindigul, Tamil Nadu</option>
+                <option  value="592">Koderma, Koderma, Jharkhand </option>
+                <option  value="1148">Kodumudi, Erode, Tamil Nadu</option>
+                <option  value="1073">Kodungallur, Thrissur, Kerala</option>
+                <option  value="990">Kohima, Kohima, Nagaland </option>
+                <option  value="941">Kokrajhar, Kokrajhar, Assam </option>
+                <option  value="384">Kolar, Kolar, Karnataka</option>
+                <option  value="966">Kolasib, Bangalore Rural, Karnataka</option>
+                <option  value="472">Kolhapur, Kolhapur, Maharashtra</option>
+                <option  value="612">Kolkata, Kolkata, West Bengal </option>
+                <option  value="6">Kollam, Kollam, Kerala</option>
+                <option  value="1201">Kolli Hills, Namakkal, Tamil Nadu</option>
+                <option  value="418">Komaram Bheem, Komaram Bheem, Telangana</option>
+                <option  value="499">Kondagaon, Kondagaon, Chhattisgarh </option>
+                <option  value="1053">Kondotty, Malappuram , Kerala</option>
+                <option  value="1064">Konni, Pathanamthitta, Kerala</option>
+                <option  value="1304">Koothanallur, Tiruvarur, Tamil Nadu</option>
+                <option  value="385">Koppal, Koppal, Karnataka</option>
+                <option  value="517">Koraput, Koraput, Odisha </option>
+                <option  value="477">Korba, Korba, Chhattisgarh </option>
+                <option  value="480">Koriya, Koriya, Chhattisgarh </option>
+                <option  value="683">Kota, Kota, Rajasthan </option>
+                <option  value="1274">Kotagiri, Nilgiris, Tamil Nadu</option>
+                <option  value="1024">Kothamangalam, Ernakulam, Kerala</option>
+                <option  value="1041">Kottarakkara, Kollam, Kerala</option>
+                <option  value="7">Kottayam, Kottayam, Kerala</option>
+                <option  value="1336">Kovilpattai, Thoothukudi, Tamil Nadu</option>
+                <option  value="1049">Koyilandy, Kozhikode, Kerala</option>
+                <option  value="11">Kozhikode, Kozhikode, Kerala</option>
+                <option  value="400">Krishna, Krishna, Andhra Pradesh </option>
+                <option  value="346">Krishnagiri, Krishnagiri, Tamil Nadu</option>
+                <option  value="1172">Krishnarayapuram, Karur, Tamil Nadu</option>
+                <option  value="1305">Kudavasal, Tiruvarur, Tamil Nadu</option>
+                <option  value="1216">Kulathur, Pudukottai, Tamil Nadu</option>
+                <option  value="896">Kulgam, Kulgam, Jammu and Kashmir </option>
+                <option  value="1173">Kulithalai, Karur, Tamil Nadu</option>
+                <option  value="879">Kullu, Kullu, Himachal Pradesh</option>
+                <option  value="1202">Kumarapalayam, Namakkal, Tamil Nadu</option>
+                <option  value="1261">Kumbakonam, Thanjavur, Tamil Nadu</option>
+                <option  value="1275">Kundah, Nilgiris, Tamil Nadu</option>
+                <option  value="1160">KUNDRATHUR, Kanchipuram, Tamil Nadu</option>
+                <option  value="1208">Kunnam, Perambalur, Tamil Nadu</option>
+                <option  value="1078">Kunnamkulam, Thrissur, Kerala</option>
+                <option  value="897">Kupwara, Kupwara, Jammu and Kashmir </option>
+                <option  value="1123">Kurinjipadi, Cuddalore, Tamil Nadu</option>
+                <option  value="401">Kurnool, Kurnool, Andhra Pradesh </option>
+                <option  value="714">Kurukshetra, Kurukshetra, Haryana </option>
+                <option  value="1014">Kurung Kumey, Kurung Kumey, Arunachal Pradesh </option>
+                <option  value="773">Kushinagar, Kushinagar, Uttar Pradesh </option>
+                <option  value="643">Kutch, Kutch, Gujarat </option>
+                <option  value="1020">Kuttanad, Alappuzha, Kerala</option>
+                <option  value="1195">Kutthalam, Nagapattinam, Tamil Nadu</option>
+                <option  value="880">Lahaul and Spiti, Lahaul and Spiti, Himachal Pradesh</option>
+                <option  value="942">Lakhimpur, Lakhimpur Kheri, Uttar Pradesh </option>
+                <option  value="772">Lakhimpur Kheri, Lakhimpur Kheri, Uttar Pradesh </option>
+                <option  value="841">Lakhisarai, Lakhisarai, Bihar </option>
+                <option  value="1323">Lalgudi, Tiruchirappalli, Tamil Nadu</option>
+                <option  value="774">Lalitpur, Lalitpur, Uttar Pradesh </option>
+                <option  value="593">Latehar, Latehar, Jharkhand </option>
+                <option  value="452">Latur, Latur, Maharashtra</option>
+                <option  value="967">Lawngtlai, Lawngtlai, Mizoram </option>
+                <option  value="898">Leh, Leh, Ladakh</option>
+                <option  value="594">Lohardaga, Lohardaga, Jharkhand </option>
+                <option  value="1003">Lohit, Lohit, Arunachal Pradesh </option>
+                <option  value="991">Longleng, Longleng, Nagaland </option>
+                <option  value="1008">Lower Dibang Valley, Lower Dibang Valley, Arunachal Pradesh </option>
+                <option  value="1004">Lower Subansiri, Lower Subansiri, Arunachal Pradesh </option>
+                <option  value="775">Lucknow, Lucknow, Uttar Pradesh </option>
+                <option  value="813">Ludhiana, Ludhiana, Punjab </option>
+                <option  value="968">Lunglei, Lunglei, Mizoram </option>
+                <option  value="1317">Madathukulam, Tiruppur, Tamil Nadu</option>
+                <option  value="1099">Madhavaram, Chennai, Tamil Nadu</option>
+                <option  value="842">Madhepura, Madhepura, Bihar </option>
+                <option  value="843">Madhubani, Madhubani, Bihar </option>
+                <option  value="1086">Madhurantakam, Chengalpattu, Tamil Nadu</option>
+                <option  value="1114">Madukkarai, Coimbatore, Tamil Nadu</option>
+                <option  value="1184">Madurai East, Madurai, Tamil Nadu</option>
+                <option  value="1185">Madurai North, Madurai, Tamil Nadu</option>
+                <option  value="1187">Madurai West, Madurai, Tamil Nadu</option>
+                <option  value="1186">Madurai(South), Madurai, Tamil Nadu</option>
+                <option  value="1100">Maduravoyal, Chennai, Tamil Nadu</option>
+                <option  value="419">Mahabubabad, Mahabubabad, Telangana</option>
+                <option  value="420">Mahabubnagar, Mahabubnagar, Telangana</option>
+                <option  value="776">Maharajganj, Maharajganj, Uttar Pradesh </option>
+                <option  value="492">Mahasamund district, Mahasamund, Chhattisgarh </option>
+                <option  value="715">Mahendragarh, Mahendragarh, Haryana </option>
+                <option  value="645">Mahesana, Mehsana, Gujarat </option>
+                <option  value="644">Mahisagar, Mahisagar, Gujarat </option>
+                <option  value="777">Mahoba, Mahoba, Uttar Pradesh </option>
+                <option  value="778">Mainpuri, Mainpuri, Uttar Pradesh </option>
+                <option  value="953">Majuli, Majuli, Assam </option>
+                <option  value="69">Malappuram, Malappuram , Kerala</option>
+                <option  value="613">Malda, Malda, West Bengal </option>
+                <option  value="519">Malkangiri, Malkangiri, Odisha </option>
+                <option  value="1066">Mallappally, Pathanamthitta, Kerala</option>
+                <option  value="1101">Mambalam, Chennai, Tamil Nadu</option>
+                <option  value="969">Mamit, Mamit, Mizoram </option>
+                <option  value="1324">Manachanallur, Tiruchirappalli, Tamil Nadu</option>
+                <option  value="1248">Manamadurai, Sivagangai, Tamil Nadu</option>
+                <option  value="1217">Manamelkudi, Pudukottai, Tamil Nadu</option>
+                <option  value="1079">Mananthavady, Wayanad, Kerala</option>
+                <option  value="1325">Manapparai, Tiruchirappalli, Tamil Nadu</option>
+                <option  value="421">Mancherial, Mancherial, Telangana</option>
+                <option  value="881">Mandi, Mandi, Himachal Pradesh</option>
+                <option  value="555">Mandla, Mandla, Madhya Pradesh </option>
+                <option  value="556">Mandsaur, Mandsaur, Madhya Pradesh </option>
+                <option  value="386">Mandya, Mandya, Karnataka</option>
+                <option  value="1052">Manjeri, Malappuram , Kerala</option>
+                <option  value="1036">Manjeshwaram, Kasargod, Kerala</option>
+                <option  value="1174">Manmangalam, Karur, Tamil Nadu</option>
+                <option  value="1306">Mannargudi, Tiruvarur, Tamil Nadu</option>
+                <option  value="1062">Mannarkkad, Palakkad , Kerala</option>
+                <option  value="814">Mansa, Mansa, Punjab </option>
+                <option  value="1280">Manur, Tirunelveli, Tamil Nadu</option>
+                <option  value="1349">Marakkanam, Viluppuram, Tamil Nadu</option>
+                <option  value="779">Mathura, Mathura, Uttar Pradesh </option>
+                <option  value="780">Mau, Mau, Uttar Pradesh </option>
+                <option  value="1021">Mavelikkara, Alappuzha, Kerala</option>
+                <option  value="1196">Mayiladuthurai, Nagapattinam, Tamil Nadu</option>
+                <option  value="520">Mayurbhanj, Mayurbhanj, Odisha </option>
+                <option  value="422">Medak, Medak, Telangana</option>
+                <option  value="423">Medchalâ€“Malkajgiri, Medchalâ€“Malkajgiri, Telangana</option>
+                <option  value="781">Meerut, Meerut, Uttar Pradesh </option>
+                <option  value="1350">Melmalaiyanur, Viluppuram, Tamil Nadu</option>
+                <option  value="1188">Melur, Madurai, Tamil Nadu</option>
+                <option  value="1115">Mettupalayam, Coimbatore, Tamil Nadu</option>
+                <option  value="1236">Mettur, Salem, Tamil Nadu</option>
+                <option  value="782">Mirzapur, Mirzapur, Uttar Pradesh </option>
+                <option  value="1149">Modakkurichi, Erode, Tamil Nadu</option>
+                <option  value="815">Moga, Moga	, Punjab </option>
+                <option  value="1203">Mohanur, Namakkal, Tamil Nadu</option>
+                <option  value="992">Mokokchung, Mokokchung, Nagaland </option>
+                <option  value="993">Mon, Mon, Nagaland </option>
+                <option  value="783">Moradabad, Moradabad, Uttar Pradesh </option>
+                <option  value="646">Morbi, Morbi, Gujarat </option>
+                <option  value="557">Morena, Morena, Madhya Pradesh </option>
+                <option  value="943">Morigaon, Morigaon, Assam </option>
+                <option  value="1224">Mudukulathur, Ramanathapuram, Tamil Nadu</option>
+                <option  value="817">Muktsar (Sri Muktsar Sahib), Sri Muktsar Sahib, Punjab </option>
+                <option  value="424">Mulugu, Mulugu, Telangana</option>
+                <option  value="319">Mumbai, Mumbai Suburban	, Maharashtra</option>
+                <option  value="455">Mumbai City, Mumbai City	, Maharashtra</option>
+                <option  value="456">Mumbai Suburban, Mumbai Suburban	, Maharashtra</option>
+                <option  value="486">Mungeli, Mungeli, Chhattisgarh </option>
+                <option  value="844">Munger, Munger, Bihar </option>
+                <option  value="614">Murshidabad, Murshidabad	, West Bengal </option>
+                <option  value="1326">Musiri, Tiruchirappalli, Tamil Nadu</option>
+                <option  value="1026">Muvattupuzha, Ernakulam, Kerala</option>
+                <option  value="784">Muzaffarnagar, Muzaffarnagar, Uttar Pradesh </option>
+                <option  value="845">Muzaffarpur, Muzaffarpur, Bihar </option>
+                <option  value="1102">Mylapore, Chennai, Tamil Nadu</option>
+                <option  value="387">Mysore, Mysore, Karnataka</option>
+                <option  value="521">Nabarangpur, Nabarangpur, Odisha </option>
+                <option  value="615">Nadia, Nadia, West Bengal </option>
+                <option  value="944">Nagaon, Nagaon, Assam </option>
+                <option  value="330">Nagapattinam, Nagapattinam, Tamil Nadu</option>
+                <option  value="425">Nagarkurnool, Nagarkurnool, Telangana</option>
+                <option  value="684">Nagaur, Nagaur, Rajasthan </option>
+                <option  value="466">Nagpur, Nagpur, Maharashtra</option>
+                <option  value="867">Nainital, Nainital, Uttarakhand </option>
+                <option  value="846">Nalanda, Nalanda, Bihar </option>
+                <option  value="945">Nalbari, Nalbari, Assam </option>
+                <option  value="427">Nalgonda, Nalgonda, Telangana</option>
+                <option  value="1131">Nallampalli, Dharmapuri, Tamil Nadu</option>
+                <option  value="347">Namakkal, Namakkal, Tamil Nadu</option>
+                <option  value="1150">Nambiyur, Erode, Tamil Nadu</option>
+                <option  value="451">Nanded, Nanded, Maharashtra</option>
+                <option  value="470">Nandurbar, Nandurbar, Maharashtra</option>
+                <option  value="1281">Nanguneri, Tirunelveli, Tamil Nadu</option>
+                <option  value="1307">Nannilam, Tiruvarur, Tamil Nadu</option>
+                <option  value="426">Narayanpet, Narayanpet, Telangana</option>
+                <option  value="495">Narayanpur, Narayanpur, Chhattisgarh </option>
+                <option  value="647">Narmada, Narmada, Gujarat </option>
+                <option  value="558">Narsinghpur, Narsinghpur , Madhya Pradesh </option>
+                <option  value="1016">Nashik, Nashik, Maharashtra</option>
+                <option  value="1140">Natham, Dindigul, Tamil Nadu</option>
+                <option  value="1312">Natrampalli, Tirupattur, Tamil Nadu</option>
+                <option  value="648">Navsari, Navsari, Gujarat </option>
+                <option  value="847">Nawada, Nawada, Bihar </option>
+                <option  value="523">Nayagarh, Nayagarh, Odisha </option>
+                <option  value="1070">Nedumangad, Trivandrum (Thiruvananthapuram), Kerala</option>
+                <option  value="1030">Nedumkandam, Idukki, Kerala</option>
+                <option  value="1308">Needamanglam, Tiruvarur, Tamil Nadu</option>
+                <option  value="559">Neemuch, Neemuch, Madhya Pradesh </option>
+                <option  value="402">Nellore, Nellore, Andhra Pradesh </option>
+                <option  value="1231">Nemili, Ranipet, Tamil Nadu</option>
+                <option  value="696">New Delhi, New Delhi, Delhi </option>
+                <option  value="1068">Neyyattinkara, Trivandrum (Thiruvananthapuram), Kerala</option>
+                <option  value="1141">Nilakottai, Dindigul, Tamil Nadu</option>
+                <option  value="1051">Nilambur, Malappuram , Kerala</option>
+                <option  value="348">Nilgiris, Nilgiris, Tamil Nadu</option>
+                <option  value="428">Nirmal, Nirmal, Telangana</option>
+                <option  value="429">Nizamabad, Nizamabad, Telangana</option>
+                <option  value="984">Noney, Noney, Manipur </option>
+                <option  value="616">North 24 Parganas, North 24 Parganas, West Bengal </option>
+                <option  value="697">North Delhi, North Delhi, Delhi </option>
+                <option  value="698">North East Delhi, North East Delhi, Delhi </option>
+                <option  value="914">North Garo Hills, North Garo Hills, Meghalaya </option>
+                <option  value="1027">North Paravur, Ernakulam, Kerala</option>
+                <option  value="909">North Sikkim, North Sikkim, Sikkim </option>
+                <option  value="959">North Tripura, North Tripura, Tripura </option>
+                <option  value="699">North West Delhi, North West Delhi, Delhi </option>
+                <option  value="522">Nuapada, Nuapada, Odisha </option>
+                <option  value="716">Nuh, Nuh, Haryana </option>
+                <option  value="1142">Oddenchatram, Dindigul, Tamil Nadu</option>
+                <option  value="1237">Omalur, Salem, Tamil Nadu</option>
+                <option  value="1262">Orathanadu, Thanjavur, Tamil Nadu</option>
+                <option  value="450">Osmanabad, Osmanabad, Maharashtra</option>
+                <option  value="1337">Ottapidaram, Thoothukudi, Tamil Nadu</option>
+                <option  value="1061">Ottappalam, Palakkad , Kerala</option>
+                <option  value="595">Pakur, Pakur, Jharkhand </option>
+                <option  value="1047">Palai, Kottayam, Kerala</option>
+                <option  value="1132">Palakcode, Dharmapuri, Tamil Nadu</option>
+                <option  value="192">Palakkad, Palakkad , Kerala</option>
+                <option  value="596">Palamu, Palamu, Jharkhand </option>
+                <option  value="1143">Palani, Dindigul, Tamil Nadu</option>
+                <option  value="1282">Palayamkottai, Tirunelveli, Tamil Nadu</option>
+                <option  value="458">Palghar, Palghar, Maharashtra</option>
+                <option  value="685">Pali, Pali, Rajasthan </option>
+                <option  value="1318">Palladam, Tiruppur, Tamil Nadu</option>
+                <option  value="1087">Pallavaram, Chengalpattu, Tamil Nadu</option>
+                <option  value="1288">Pallipattu, Tiruvallur, Tamil Nadu</option>
+                <option  value="717">Palwal, Palwal, Haryana </option>
+                <option  value="718">Panchkula, Panchkula, Haryana </option>
+                <option  value="649">Panchmahal, Panchmahal, Gujarat </option>
+                <option  value="785">Panchsheel Nagar district (Hapur), Hapur district, Uttar Pradesh </option>
+                <option  value="719">Panipat, Panipat, Haryana </option>
+                <option  value="560">Panna, Panna, Madhya Pradesh </option>
+                <option  value="1124">Panruti, Cuddalore, Tamil Nadu</option>
+                <option  value="1276">Panthalur, Nilgiris, Tamil Nadu</option>
+                <option  value="1263">Papanasam, Thanjavur, Tamil Nadu</option>
+                <option  value="1133">Pappireddipatti, Dharmapuri, Tamil Nadu</option>
+                <option  value="1005">Papum Pare, Papum Pare, Arunachal Pradesh </option>
+                <option  value="1225">Paramakudi, Ramanathapuram, Tamil Nadu</option>
+                <option  value="1204">Paramathi Velur, Namakkal, Tamil Nadu</option>
+                <option  value="453">Parbhani, Parbhani, Maharashtra</option>
+                <option  value="617">Paschim Medinipur, Paschim Medinipur, West Bengal </option>
+                <option  value="650">Patan, Patan, Gujarat </option>
+                <option  value="14">Pathanamthitta, Pathanamthitta, Kerala</option>
+                <option  value="1043">Pathanapuram, Kollam, Kerala</option>
+                <option  value="818">Pathankot, Pathankot, Punjab </option>
+                <option  value="819">Patiala, Patiala, Punjab </option>
+                <option  value="848">Patna, Patna, Bihar </option>
+                <option  value="1060">Pattambi, Palakkad , Kerala</option>
+                <option  value="1264">Pattukkottai, Thanjavur, Tamil Nadu</option>
+                <option  value="868">Pauri Garhwal, Pauri Garhwal, Uttarakhand </option>
+                <option  value="1035">Payyanur, Kannur, Kerala</option>
+                <option  value="430">Peddapalli, Peddapalli, Telangana</option>
+                <option  value="1029">Peermade, Idukki, Kerala</option>
+                <option  value="1134">Pennagaram, Dharmapuri, Tamil Nadu</option>
+                <option  value="1189">Peraiyur, Madurai, Tamil Nadu</option>
+                <option  value="349">Perambalur, Perambalur, Tamil Nadu</option>
+                <option  value="1103">Perambur, Chennai, Tamil Nadu</option>
+                <option  value="1265">Peravurani, Thanjavur, Tamil Nadu</option>
+                <option  value="994">Peren, Peren, Nagaland </option>
+                <option  value="1054">Perinthalmanna, Malappuram , Kerala</option>
+                <option  value="1270">Periyakulam, Theni, Tamil Nadu</option>
+                <option  value="1346">Pernambut, Vellore, Tamil Nadu</option>
+                <option  value="1025">Perumbavoor, Ernakulam, Kerala</option>
+                <option  value="1151">Perundurai, Erode, Tamil Nadu</option>
+                <option  value="1116">Perur, Coimbatore, Tamil Nadu</option>
+                <option  value="1238">Pethanaickenpalayam, Salem, Tamil Nadu</option>
+                <option  value="995">Phek, Phek, Nagaland </option>
+                <option  value="983">Pherzawl, Pherzawl, Manipur </option>
+                <option  value="786">Pilibhit, Pilibhit, Uttar Pradesh </option>
+                <option  value="869">Pithoragarh, Pithoragarh, Uttarakhand </option>
+                <option  value="1180">Pochampalli, Krishnagiri, Tamil Nadu</option>
+                <option  value="327">pollachi, Coimbatore, Tamil Nadu</option>
+                <option  value="1117">Polllachi, Coimbatore, Tamil Nadu</option>
+                <option  value="1300">Polur, Tiruvannamalai, Tamil Nadu</option>
+                <option  value="1218">Ponnamaravathi, Pudukottai, Tamil Nadu</option>
+                <option  value="1055">Ponnani, Malappuram , Kerala</option>
+                <option  value="1289">Ponneri, Tiruvallur, Tamil Nadu</option>
+                <option  value="1290">Poonamallee, Tiruvallur, Tamil Nadu</option>
+                <option  value="899">Poonch, Poonch, Jammu and Kashmir </option>
+                <option  value="651">Porbandar, Porbandar, Gujarat </option>
+                <option  value="403">Prakasam, Prakasam, Andhra Pradesh </option>
+                <option  value="686">Pratapgarh, Pratapgarh, Uttar Pradesh </option>
+                <option  value="801">Pratapgarh (UP), Pratapgarh, Uttar Pradesh </option>
+                <option  value="338">Pudukkottai, Pudukottai, Tamil Nadu</option>
+                <option  value="1175">Pugalur, Karur, Tamil Nadu</option>
+                <option  value="900">Pulwama, Pulwama, Jammu and Kashmir </option>
+                <option  value="1042">Punalur, Kollam, Kerala</option>
+                <option  value="1104">Purasawalkam, Chennai, Tamil Nadu</option>
+                <option  value="618">Purba Medinipur, Paschim Medinipur, West Bengal </option>
+                <option  value="524">Puri, Puri, Odisha </option>
+                <option  value="849">Purnia, Purnia, Bihar </option>
+                <option  value="619">Purulia, Purulia, West Bengal </option>
+                <option  value="1291">R.K. Pettai, Tiruvallur, Tamil Nadu</option>
+                <option  value="1283">Radhapuram, Tirunelveli, Tamil Nadu</option>
+                <option  value="787">Raebareli, Rae Bareli, Uttar Pradesh </option>
+                <option  value="388">Raichur, Raichur, Karnataka</option>
+                <option  value="459">Raigad, Raigad, Maharashtra</option>
+                <option  value="478">Raigarh, Raigarh, Chhattisgarh </option>
+                <option  value="561">Raisen, Raisen , Madhya Pradesh </option>
+                <option  value="432">Rajanna Sircilla, Rajanna Sircilla, Telangana</option>
+                <option  value="1357">Rajapalayam, Virudhunagar, Tamil Nadu</option>
+                <option  value="1226">Rajasingamangalam, Ramanathapuram, Tamil Nadu</option>
+                <option  value="562">Rajgarh, Rajgarh district, Madhya Pradesh </option>
+                <option  value="652">Rajkot, Rajkot, Gujarat </option>
+                <option  value="479">Rajnandgaon, Rajnandgaon, Chhattisgarh </option>
+                <option  value="901">Rajouri, Rajouri, Jammu and Kashmir </option>
+                <option  value="687">Rajsamand, Rajsamand, Rajasthan </option>
+                <option  value="389">Ramanagara, Ramnagara, Karnataka</option>
+                <option  value="350">Ramanathapuram, Ramanathapuram, Tamil Nadu</option>
+                <option  value="902">Ramban, Ramban, Jammu and Kashmir </option>
+                <option  value="1227">Rameswaram, Ramanathapuram, Tamil Nadu</option>
+                <option  value="597">Ramgarh, Ramgarh, Jharkhand </option>
+                <option  value="788">Rampur, Rampur, Uttar Pradesh </option>
+                <option  value="598">Ranchi, Ranchi, Jharkhand </option>
+                <option  value="433">Ranga Reddy, Ranga Reddy, Telangana</option>
+                <option  value="1065">Ranni, Pathanamthitta, Kerala</option>
+                <option  value="1205">Rasipuram, Namakkal, Tamil Nadu</option>
+                <option  value="563">Ratlam, Ratlam, Madhya Pradesh </option>
+                <option  value="460">Ratnagiri, Ratnagiri, Maharashtra</option>
+                <option  value="525">Rayagada, Rayagada, Odisha </option>
+                <option  value="903">Reasi, Reasi, Jammu and Kashmir </option>
+                <option  value="564">Rewa, Rewa, Madhya Pradesh </option>
+                <option  value="720">Rewari, Rewari, Haryana </option>
+                <option  value="922">Ri-Bhoi, Ri Bhoi, Meghalaya </option>
+                <option  value="721">Rohtak, Rohtak, Haryana </option>
+                <option  value="850">Rohtas, Rohtas, Bihar </option>
+                <option  value="870">Rudraprayag, Rudraprayag, Uttarakhand </option>
+                <option  value="653">Sabarkantha, Sabarkantha, Gujarat </option>
+                <option  value="565">Sagar, Sagar , Madhya Pradesh </option>
+                <option  value="789">Saharanpur, Saharanpur, Uttar Pradesh </option>
+                <option  value="851">Saharsa, Saharsa, Bihar </option>
+                <option  value="599">Sahibganj, Sahibganj, Jharkhand </option>
+                <option  value="816">sahibzada ajit sing nagar, Sahibzada Ajit Singh Nagar, Punjab </option>
+                <option  value="970">Saiha, Saiha, Mizoram </option>
+                <option  value="337">Salem, Salem, Tamil Nadu</option>
+                <option  value="1239">Salem South, Salem, Tamil Nadu</option>
+                <option  value="1240">Salem West, Salem, Tamil Nadu</option>
+                <option  value="852">Samastipur, Samastipur, Bihar </option>
+                <option  value="904">Samba, Samba, Jammu and Kashmir </option>
+                <option  value="526">Sambalpur, Sambalpur, Odisha </option>
+                <option  value="1241">Sangagiri, Salem, Tamil Nadu</option>
+                <option  value="434">Sangareddy, Sangareddy, Telangana</option>
+                <option  value="473">Sangli, Sangli, Maharashtra</option>
+                <option  value="820">Sangrur, Sangrur, Punjab </option>
+                <option  value="1255">Sankarankovil, Tenkasi, Tamil Nadu</option>
+                <option  value="1156">Sankarapuram, Kallakurichi, Tamil Nadu</option>
+                <option  value="790">Sant Kabir Nagar, Sant Kabir Nagar, Uttar Pradesh </option>
+                <option  value="791">Sant Ravidas Nagar, Sant Ravidas Nagar, Uttar Pradesh </option>
+                <option  value="600">Saraikela Kharsawan, Serikela Kharsawan, Jharkhand </option>
+                <option  value="853">Saran, Saran, Bihar </option>
+                <option  value="1040">Sasthamkotta, Kollam, Kerala</option>
+                <option  value="1338">Sathankulam, Thoothukudi, Tamil Nadu</option>
+                <option  value="1358">Sathur, Virudhunagar, Tamil Nadu</option>
+                <option  value="1152">Sathyamangalam, Erode, Tamil Nadu</option>
+                <option  value="566">Satna, Satna, Madhya Pradesh </option>
+                <option  value="688">Sawai Madhopur, Sawai Madhopur, Rajasthan </option>
+                <option  value="567">Sehore, Sehore district, Madhya Pradesh </option>
+                <option  value="977">Senapati, Senapati, Manipur </option>
+                <option  value="1206">Sendamangalam, Namakkal, Tamil Nadu</option>
+                <option  value="1083">Sendurai, Ariyalur, Tamil Nadu</option>
+                <option  value="568">Seoni, Seoni, Madhya Pradesh </option>
+                <option  value="971">Serchhip, Serchhip, Mizoram </option>
+                <option  value="695">Shahadara, Shahdara, Delhi </option>
+                <option  value="569">Shahdol, Shahdol, Madhya Pradesh </option>
+                <option  value="821">Shahid Bhagat Singh Nagar, Shahid Bhagat Singh Nagar, Punjab </option>
+                <option  value="792">Shahjahanpur, Shahjahanpur, Uttar Pradesh </option>
+                <option  value="570">Shajapur, Shajapur, Madhya Pradesh </option>
+                <option  value="793">Shamli, Shamli, Uttar Pradesh </option>
+                <option  value="854">Sheikhpura, Sheikhpura, Bihar </option>
+                <option  value="1256">Shencottai, Tenkasi, Tamil Nadu</option>
+                <option  value="855">Sheohar, Sheohar, Bihar </option>
+                <option  value="571">Sheopur, Sheopur, Madhya Pradesh </option>
+                <option  value="882">Shimla, Shimla, Himachal Pradesh</option>
+                <option  value="390">Shivamogga, Shivamogga, Karnataka</option>
+                <option  value="572">Shivpuri, Shivpuri, Madhya Pradesh </option>
+                <option  value="1105">Sholinganallur, Chennai, Tamil Nadu</option>
+                <option  value="1181">Shoolagiri, Krishnagiri, Tamil Nadu</option>
+                <option  value="905">Shopian, Shopian, Jammu and Kashmir </option>
+                <option  value="794">Shravasti, Shravasti, Uttar Pradesh </option>
+                <option  value="795">Siddharthnagar, Siddharthnagar, Uttar Pradesh </option>
+                <option  value="435">Siddipet, Siddipet, Telangana</option>
+                <option  value="573">Sidhi, Sidhi, Madhya Pradesh </option>
+                <option  value="1249">Sigampunari, Sivagangai, Tamil Nadu</option>
+                <option  value="689">Sikar, Sikar, Rajasthan </option>
+                <option  value="601">Simdega, Simdega, Jharkhand </option>
+                <option  value="461">Sindhudurg, Sindhudurg, Maharashtra</option>
+                <option  value="574">Singrauli, Singrauli , Madhya Pradesh </option>
+                <option  value="960">Sipahijala, Sipahijala	, Tripura </option>
+                <option  value="1197">Sirkali, Nagapattinam, Tamil Nadu</option>
+                <option  value="883">Sirmaur, Sirmaur, Himachal Pradesh</option>
+                <option  value="690">Sirohi, Sirohi, Rajasthan </option>
+                <option  value="722">Sirsa, Sirsa, Haryana </option>
+                <option  value="856">Sitamarhi, Sitamarhi, Bihar </option>
+                <option  value="796">Sitapur, Sitapur, Uttar Pradesh </option>
+                <option  value="352">Sivagangai, Sivagangai, Tamil Nadu</option>
+                <option  value="1257">Sivagiri, Tenkasi, Tamil Nadu</option>
+                <option  value="1359">Sivakasi, Virudhunagar, Tamil Nadu</option>
+                <option  value="946">Sivasagar, Sivasagar, Assam </option>
+                <option  value="857">Siwan, Siwan, Bihar </option>
+                <option  value="884">Solan, Solan, Himachal Pradesh</option>
+                <option  value="474">Solapur, Solapur, Maharashtra</option>
+                <option  value="797">Sonbhadra, Sonbhadra, Uttar Pradesh </option>
+                <option  value="723">Sonipat, Sonipat, Haryana </option>
+                <option  value="947">Sonitpur, Sonitpur, Assam </option>
+                <option  value="620">South 24 Parganas, South 24 Parganas, West Bengal </option>
+                <option  value="498">South Bastar, Bastar, Chhattisgarh </option>
+                <option  value="700">South Delhi, South Delhi, Delhi </option>
+                <option  value="702">South East Delhi, South East Delhi, Delhi </option>
+                <option  value="915">South Garo Hills, South Garo Hills, Meghalaya </option>
+                <option  value="954">South Salamara-Mankachar, South Salmara Mankachar, Assam </option>
+                <option  value="910">South Sikkim, South Sikkim, Sikkim </option>
+                <option  value="961">South Tripura, South Tripura, Tripura </option>
+                <option  value="701">South West Delhi, South West Delhi, Delhi </option>
+                <option  value="916">South West Garo Hills, South West Garo Hills, Meghalaya </option>
+                <option  value="920">South West Khasi Hills, South West Khasi Hills, Meghalaya </option>
+                <option  value="674">sri Ganganagar, Sri Ganganagar, Rajasthan </option>
+                <option  value="404">Srikakulam, Srikakulam, Andhra Pradesh </option>
+                <option  value="1125">Srimushanam, Cuddalore, Tamil Nadu</option>
+                <option  value="906">Srinagar, Srinagar, Jammu and Kashmir </option>
+                <option  value="1161">Sriperumbudur, Kanchipuram, Tamil Nadu</option>
+                <option  value="1327">Srirangam, Tiruchirappalli, Tamil Nadu</option>
+                <option  value="1339">Srivaikundam, Thoothukudi, Tamil Nadu</option>
+                <option  value="1360">Srivilliputhur, Virudhunagar, Tamil Nadu</option>
+                <option  value="527">Subarnapur, Subarnapur , Odisha </option>
+                <option  value="1080">Sultan Battery, Wayanad, Kerala</option>
+                <option  value="798">Sultanpur, Sultanpur, Uttar Pradesh </option>
+                <option  value="1118">Sulur, Coimbatore, Tamil Nadu</option>
+                <option  value="528">Sundargarh, Sundergarh, Odisha </option>
+                <option  value="858">Supaul, Supaul, Bihar </option>
+                <option  value="484">Surajpur, Surajpur, Chhattisgarh </option>
+                <option  value="654">Surat, Surat, Gujarat </option>
+                <option  value="655">Surendranagar, Surendranagar, Gujarat </option>
+                <option  value="481">Surguja, Surguja, Chhattisgarh </option>
+                <option  value="436">Suryapet, Suryapet, Telangana</option>
+                <option  value="1089">TAMBARAM, Chengalpattu, Tamil Nadu</option>
+                <option  value="978">Tamenglong, Tamenglong, Manipur </option>
+                <option  value="656">Tapi, Tapi, Gujarat </option>
+                <option  value="822">Tarn Taran, Taran Taran, Punjab </option>
+                <option  value="1006">Tawang, Tawang, Arunachal Pradesh </option>
+                <option  value="871">Tehri Garhwal, Tehri Garhwal, Uttarakhand </option>
+                <option  value="982">Tengnoupal, Tengnoupal, Manipur </option>
+                <option  value="353">Tenkasi, Tenkasi, Tamil Nadu</option>
+                <option  value="1032">Thalassery, Kannur, Kerala</option>
+                <option  value="1153">Thalavadi, Erode, Tamil Nadu</option>
+                <option  value="1034">Thalipparamba, Kannur, Kerala</option>
+                <option  value="1048">Thamarassery, Kozhikode, Kerala</option>
+                <option  value="1301">Thandarampattu, Tiruvannamalai, Tamil Nadu</option>
+                <option  value="457">Thane, Thane	, Maharashtra</option>
+                <option  value="331">Thanjavur, Thanjavur, Tamil Nadu</option>
+                <option  value="1198">Tharangambadi, Nagapattinam, Tamil Nadu</option>
+                <option  value="657">The Dangs, Dang, Gujarat </option>
+                <option  value="354">Theni, Theni, Tamil Nadu</option>
+                <option  value="1207">Thiruchengode, Namakkal, Tamil Nadu</option>
+                <option  value="1328">Thiruchirapalli West, Tiruchirappalli, Tamil Nadu</option>
+                <option  value="1090">THIRUKKALUKUNDRAM, Chengalpattu, Tamil Nadu</option>
+                <option  value="1199">Thirukkuvalai, Nagapattinam, Tamil Nadu</option>
+                <option  value="1219">Thirumayam, Pudukottai, Tamil Nadu</option>
+                <option  value="1190">Thirupparankundram, Madurai, Tamil Nadu</option>
+                <option  value="1091">THIRUPPORUR, Chengalpattu, Tamil Nadu</option>
+                <option  value="1251">Thiruppuvanam, Sivagangai, Tamil Nadu</option>
+                <option  value="1309">Thiruthuraipoondi, Tiruvarur, Tamil Nadu</option>
+                <option  value="1266">Thiruvaiyaru, Thanjavur, Tamil Nadu</option>
+                <option  value="1067">Thiruvalla, Pathanamthitta, Kerala</option>
+                <option  value="1167">Thiruvattar, Kanyakumari, Tamil Nadu</option>
+                <option  value="1258">Thiruvengadam, Tenkasi, Tamil Nadu</option>
+                <option  value="1351">Thiruvennainallur, Viluppuram, Tamil Nadu</option>
+                <option  value="1329">Thiruverumpur, Tiruchirappalli, Tamil Nadu</option>
+                <option  value="1267">Thiruvidaimarudur, Thanjavur, Tamil Nadu</option>
+                <option  value="1106">Thiruvottiyur, Chennai, Tamil Nadu</option>
+                <option  value="1284">Thisayanvilai, Tirunelveli, Tamil Nadu</option>
+                <option  value="1031">Thodupuzha, Idukki, Kerala</option>
+                <option  value="355">Thoothukudi, Thoothukudi, Tamil Nadu</option>
+                <option  value="1330">Thottiyam, Tiruchirappalli, Tamil Nadu</option>
+                <option  value="979">Thoubal, Thoubal, Manipur </option>
+                <option  value="1168">Thovalai, Kanyakumari, Tamil Nadu</option>
+                <option  value="1">Thrissur, Thrissur, Kerala</option>
+                <option  value="1331">Thuraiyur, Tiruchirappalli, Tamil Nadu</option>
+                <option  value="575">Tikamgarh, Tikamgarh, Madhya Pradesh </option>
+                <option  value="1352">Tindivanam, Viluppuram, Tamil Nadu</option>
+                <option  value="948">Tinsukia, Tinsukia, Assam </option>
+                <option  value="1007">Tirap, Tirap, Arunachal Pradesh </option>
+                <option  value="1340">Tiruchendur, Thoothukudi, Tamil Nadu</option>
+                <option  value="1332">Tiruchirappalli East, Tiruchirappalli, Tamil Nadu</option>
+                <option  value="1361">Tiruchuli, Virudhunagar, Tamil Nadu</option>
+                <option  value="1157">Tirukkoilur, Kallakurichi, Tamil Nadu</option>
+                <option  value="1191">Tirumangalam, Madurai, Tamil Nadu</option>
+                <option  value="1285">Tirunelveli, Tirunelveli, Tamil Nadu</option>
+                <option  value="1252">Tirupathur, Sivagangai, Tamil Nadu</option>
+                <option  value="357">Tirupattur, Tirupattur, Tamil Nadu</option>
+                <option  value="1319">Tiruppur North, Tiruppur, Tamil Nadu</option>
+                <option  value="1320">Tiruppur South, Tiruppur, Tamil Nadu</option>
+                <option  value="1056">Tirur, Malappuram , Kerala</option>
+                <option  value="1057">Tirurangadi, Malappuram , Kerala</option>
+                <option  value="1292">Tiruttani, Tiruvallur, Tamil Nadu</option>
+                <option  value="1228">Tiruvadanai, Ramanathapuram, Tamil Nadu</option>
+                <option  value="359">Tiruvallur, Tiruvallur, Tamil Nadu</option>
+                <option  value="360">Tiruvannamalai, Tiruvannamalai, Tamil Nadu</option>
+                <option  value="361">Tiruvarur, Tiruvarur, Tamil Nadu</option>
+                <option  value="1126">Titakudi, Cuddalore, Tamil Nadu</option>
+                <option  value="1107">Tondiarpet, Chennai, Tamil Nadu</option>
+                <option  value="691">Tonk, Tonk, Rajasthan </option>
+                <option  value="5">Trivandrum, Trivandrum (Thiruvananthapuram), Kerala</option>
+                <option  value="996">Tuensang, Tuensang	, Nagaland </option>
+                <option  value="391">Tumakuru, Tumkur, Karnataka</option>
+                <option  value="692">Udaipur, Udaipur, Rajasthan </option>
+                <option  value="949">Udalguri, Udalguri, Assam </option>
+                <option  value="1084">Udayarpalayam, Ariyalur, Tamil Nadu</option>
+                <option  value="1277">Udhagamandalam, Nilgiris, Tamil Nadu</option>
+                <option  value="872">Udham Singh Nagar, Udham Singh Nagar, Uttarakhand </option>
+                <option  value="907">Udhampur, Udhampur, Jammu and Kashmir </option>
+                <option  value="1321">Udumalpet, Tiruppur, Tamil Nadu</option>
+                <option  value="392">Udupi, Udupi, Karnataka</option>
+                <option  value="576">Ujjain, Ujjain, Madhya Pradesh </option>
+                <option  value="980">Ukhrul, Ukhrul, Manipur </option>
+                <option  value="1158">Ulundurpet, Kallakurichi, Tamil Nadu</option>
+                <option  value="577">Umaria, Umaria, Madhya Pradesh </option>
+                <option  value="885">Una, Una, Himachal Pradesh</option>
+                <option  value="962">Unakoti, Unakoti, Tripura </option>
+                <option  value="799">Unnao, Unnao, Uttar Pradesh </option>
+                <option  value="1013">Upper Dibang Valley, Dibang Valley, Arunachal Pradesh </option>
+                <option  value="1009">Upper Siang, West Siang, Arunachal Pradesh </option>
+                <option  value="1010">Upper Subansiri, Upper Subansiri, Arunachal Pradesh </option>
+                <option  value="1192">Usilampatti, Madurai, Tamil Nadu</option>
+                <option  value="1271">Uthamapalayam, Theni, Tamil Nadu</option>
+                <option  value="1182">Uthangarai, Krishnagiri, Tamil Nadu</option>
+                <option  value="1162">Uthiramerur, Kanchipuram, Tamil Nadu</option>
+                <option  value="1293">Uthukkotai, Tiruvallur, Tamil Nadu</option>
+                <option  value="1322">Uthukuli, Tiruppur, Tamil Nadu</option>
+                <option  value="621">Uttar Dinajpur, Uttar Dinajpur, West Bengal </option>
+                <option  value="393">Uttara Kannada, Uttara Kannada, Karnataka</option>
+                <option  value="873">Uttarkashi, Uttarkashi, Uttarakhand </option>
+                <option  value="1259">V.K.Pudur, Tenkasi, Tamil Nadu</option>
+                <option  value="1193">Vadipatti, Madurai, Tamil Nadu</option>
+                <option  value="658">Vadodara, Vadodara, Gujarat </option>
+                <option  value="1046">Vaikom, Kottayam, Kerala</option>
+                <option  value="859">Vaishali, Vaishali, Bihar </option>
+                <option  value="1310">Valangaiman, Tiruvarur, Tamil Nadu</option>
+                <option  value="1242">Valapady, Salem, Tamil Nadu</option>
+                <option  value="1119">Valparai, Coimbatore, Tamil Nadu</option>
+                <option  value="659">Valsad, Valsad, Gujarat </option>
+                <option  value="1092">VANDALUR, Chengalpattu, Tamil Nadu</option>
+                <option  value="1302">Vandavasi, Tiruvannamalai, Tamil Nadu</option>
+                <option  value="1313">Vaniyambadi, Tirupattur, Tamil Nadu</option>
+                <option  value="1353">Vanur, Viluppuram, Tamil Nadu</option>
+                <option  value="800">Varanasi, Varanasi, Uttar Pradesh </option>
+                <option  value="1072">Varkala, Trivandrum (Thiruvananthapuram), Kerala</option>
+                <option  value="1050">Vatakara, Kozhikode, Kerala</option>
+                <option  value="1200">Vedaranyam, Nagapattinam, Tamil Nadu</option>
+                <option  value="1144">Vedasandur, Dindigul, Tamil Nadu</option>
+                <option  value="1108">Velachery, Chennai, Tamil Nadu</option>
+                <option  value="1037">Vellarikundu, Kasargod, Kerala</option>
+                <option  value="362">Vellore, Vellore, Tamil Nadu</option>
+                <option  value="1303">Vembakkam, Tiruvannamalai, Tamil Nadu</option>
+                <option  value="1362">Vembakkottai, Virudhunagar, Tamil Nadu</option>
+                <option  value="1209">Veppanthattai, Perambalur, Tamil Nadu</option>
+                <option  value="1127">Veppur, Cuddalore, Tamil Nadu</option>
+                <option  value="578">Vidisha, Vidisha district, Madhya Pradesh </option>
+                <option  value="371">Vijayapur, Vijayapur, Karnataka</option>
+                <option  value="437">Vikarabad, Vikarabad, Telangana</option>
+                <option  value="1354">Vikkiravandi, Viluppuram, Tamil Nadu</option>
+                <option  value="1341">Vilathikulam, Thoothukudi, Tamil Nadu</option>
+                <option  value="1169">Vilavancode, Kanyakumari, Tamil Nadu</option>
+                <option  value="363">Viluppuram, Viluppuram, Tamil Nadu</option>
+                <option  value="1220">Viralimalai, Pudukottai, Tamil Nadu</option>
+                <option  value="364">Virudhunagar, Virudhunagar, Tamil Nadu</option>
+                <option  value="405">Visakhapatnam, Vishakhapatnam, Andhra Pradesh </option>
+                <option  value="406">Vizianagaram, Vizianagaram, Andhra Pradesh </option>
+                <option  value="1128">Vridachalam, Cuddalore, Tamil Nadu</option>
+                <option  value="1077">Wadakkancheri, Thrissur, Kerala</option>
+                <option  value="1163">WALAJABAD, Kanchipuram, Tamil Nadu</option>
+                <option  value="1232">Walajah, Ranipet, Tamil Nadu</option>
+                <option  value="438">Wanaparthy, Wanaparthy, Telangana</option>
+                <option  value="439">Warangal Rural, Warangal Rural, Telangana</option>
+                <option  value="440">Warangal Urban, Warangal Urban, Telangana</option>
+                <option  value="467">Wardha, Wardha	, Maharashtra</option>
+                <option  value="446">Washim, Washim, Maharashtra</option>
+                <option  value="1363">Watrap, Virudhunagar, Tamil Nadu</option>
+                <option  value="309">Wayanad, Wayanad, Kerala</option>
+                <option  value="626">West Burdwan, Purba Bardhaman, West Bengal </option>
+                <option  value="860">West Champaran, West Champaran, Bihar </option>
+                <option  value="703">West Delhi, West Delhi, Delhi </option>
+                <option  value="913">West Garo Hills, West Garo Hills, Meghalaya </option>
+                <option  value="407">West Godavari, West Godavari, Andhra Pradesh </option>
+                <option  value="918">West Jaintia Hills, West Jaintia Hills, Meghalaya </option>
+                <option  value="1011">West Kameng, West Kameng, Arunachal Pradesh </option>
+                <option  value="955">West Karbi Anglong, West Karbi Anglong, Assam </option>
+                <option  value="921">West Khasi Hills, West Khasi Hills, Meghalaya </option>
+                <option  value="1012">West Siang, West Siang, Arunachal Pradesh </option>
+                <option  value="911">West Sikkim, West Sikkim, Sikkim </option>
+                <option  value="602">West Singhbhum, West Singhbhum, Jharkhand </option>
+                <option  value="963">West Tripura, West Tripura, Tripura </option>
+                <option  value="997">Wokha, Wokha, Nagaland </option>
+                <option  value="441">Yadadri Bhuvanagiri, Yadadri Bhuvanagiri, Telangana</option>
+                <option  value="394">Yadgir, Yadgir, Karnataka</option>
+                <option  value="724">Yamunanagar, Yamunanagar, Haryana </option>
+                <option  value="445">Yavatmal, Yavatmal, Maharashtra</option>
+                <option  value="1243">Yercaud, Salem, Tamil Nadu</option>
+                <option  value="399">YSR Kadapa, YSR Kadapa, Andhra Pradesh </option>
+                <option  value="998">Zunheboto, Zunheboto, Nagaland </option>
+              </select>
+              
+            </div>
+          </div>
+        </div>
+       
+    
+    <div class="col-md-9">
+      <div class="job-box">
+        <div class="container">
+          <div class="job-box">
+            <div class="row">
+              <!--each job box---->
+              <div class="col-md-6">
+                <div class="job-each-box">
+                  <div class="company-data">
+                    <div class="row">
+                      <div class="col-1">
+                        <i class="fa fa-building fa-job-build-icon"></i>
+                      </div>
+                      <div class="col-11">
+                        <p class="job-company-name">3D Designer Job(Experience is Must) in Trivandrum</p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="details-job">
+                    <div class="container">
+                      <label for=""> Job details</label>
+                      <div class="row">
+                        <div class="col-6">
+                          <label for="" class="job-each-q">JOB ID</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="">: 121597</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="" class="job-each-q">Qualification</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="">: Degree & Same field Experience</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="" class="job-each-q">Comp. Type</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="">: Hair dressing Parler</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="" class="job-each-q">Male / Female</label>
+                        </div>
+                        <div class="col-6">
+                          <label for=""> : Female</label>
+                        </div> <label for="" class="job-post-date"><i class="fa fa-clock"></i> Posted on 25 June
+                          2021</label>
+                      </div>
+
+                    </div>
+                    <div class="job-button">
+                      <button class="job-apply-button">APPLY NOW</button>
+                    </div>
+                    <div class="job-button">
+                      <button class="job-apply-button">Job Details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="job-each-box">
+                  <div class="company-data">
+                    <div class="row">
+                      <div class="col-1">
+                        <i class="fa fa-building fa-job-build-icon"></i>
+                      </div>
+                      <div class="col-11">
+                        <p class="job-company-name">3D Designer Job(Experience is Must) in Trivandrum</p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="details-job">
+                    <div class="container">
+                      <label for=""> Job details</label>
+                      <div class="row">
+                        <div class="col-6">
+                          <label for="" class="job-each-q">JOB ID</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="">: 121597</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="" class="job-each-q">Qualification</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="">: Degree & Same field Experience</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="" class="job-each-q">Comp. Type</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="">: Hair dressing Parler</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="" class="job-each-q">Male / Female</label>
+                        </div>
+                        <div class="col-6">
+                          <label for=""> : Female</label>
+                        </div> <label for="" class="job-post-date"><i class="fa fa-clock"></i> Posted on 25 June
+                          2021</label>
+                      </div>
+
+                    </div>
+                    <div class="job-button">
+                      <button class="job-apply-button">APPLY NOW</button>
+                    </div>
+                    <div class="job-button">
+                      <button class="job-apply-button">Job Details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--each job box---->
+              <div class="col-md-6">
+                <div class="job-each-box">
+                  <div class="company-data">
+                    <div class="row">
+                      <div class="col-1">
+                        <i class="fa fa-building fa-job-build-icon"></i>
+                      </div>
+                      <div class="col-11">
+                        <p class="job-company-name">3D Designer Job(Experience is Must) in Trivandrum</p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="details-job">
+                    <div class="container">
+                      <label for=""> Job details</label>
+                      <div class="row">
+                        <div class="col-6">
+                          <label for="" class="job-each-q">JOB ID</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="">: 121597</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="" class="job-each-q">Qualification</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="">: Degree & Same field Experience</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="" class="job-each-q">Comp. Type</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="">: Hair dressing Parler</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="" class="job-each-q">Male / Female</label>
+                        </div>
+                        <div class="col-6">
+                          <label for=""> : Female</label>
+                        </div> <label for="" class="job-post-date"><i class="fa fa-clock"></i> Posted on 25 June
+                          2021</label>
+                      </div>
+
+                    </div>
+                    <div class="job-button">
+                      <button class="job-apply-button">APPLY NOW</button>
+                    </div>
+                    <div class="job-button">
+                      <button class="job-apply-button">Job Details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--each job box---->
+              <!--each job box---->
+              <div class="col-md-6">
+                <div class="job-each-box">
+                  <div class="company-data">
+                    <div class="row">
+                      <div class="col-1">
+                        <i class="fa fa-building fa-job-build-icon"></i>
+                      </div>
+                      <div class="col-11">
+                        <p class="job-company-name">3D Designer Job(Experience is Must) in Trivandrum</p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="details-job">
+                    <div class="container">
+                      <label for=""> Job details</label>
+                      <div class="row">
+                        <div class="col-6">
+                          <label for="" class="job-each-q">JOB ID</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="">: 121597</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="" class="job-each-q">Qualification</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="">: Degree & Same field Experience</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="" class="job-each-q">Comp. Type</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="">: Hair dressing Parler</label>
+                        </div>
+                        <div class="col-6">
+                          <label for="" class="job-each-q">Male / Female</label>
+                        </div>
+                        <div class="col-6">
+                          <label for=""> : Female</label>
+                        </div> <label for="" class="job-post-date"><i class="fa fa-clock"></i> Posted on 25 June
+                          2021</label>
+                      </div>
+
+                    </div>
+                    <div class="job-button">
+                      <button class="job-apply-button">APPLY NOW</button>
+                    </div>
+                    <div class="job-button">
+                      <button class="job-apply-button">Job Details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+   </section>
+
+
+  <footer>
+    <p>copyright © 2021 Quick way jobs| All Rights Reserved
+    </p>
+  </footer>
+  <style>
+
+  </style>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    setInterval(function () {
+      var myobj = document.getElementById("imgs");
+      myobj.remove()
+
+
+      document.getElementById("preloader").style.position = "relative";
+    }, 1000);
+  </script>
+ <script>
+  const btnDepartamentos = document.getElementById('btn-departamentos'),
+    btnCerrarMenu = document.getElementById('btn-menu-cerrar-s'),
+    grid = document.getElementById('grid'),
+    contenedorEnlacesNav = document.querySelector('#menu .contenedor-enlaces-nav'),
+    contenedorSubCategorias = document.querySelector('#grid .contenedor-subcategorias'),
+    esDispositivoMovil = () => window.innerWidth <= 800;
+
+  btnDepartamentos.addEventListener('mouseover', () => {
+    if (!esDispositivoMovil()) {
+      grid.classList.add('activo');
+    }
+  });
+
+  grid.addEventListener('mouseleave', () => {
+    if (!esDispositivoMovil()) {
+      grid.classList.remove('activo');
+    }
+  });
+
+  document.querySelectorAll('#menu .categorias a').forEach((elemento) => {
+    elemento.addEventListener('mouseenter', (e) => {
+      if (!esDispositivoMovil()) {
+        document.querySelectorAll('#menu .subcategoria').forEach((categoria) => {
+          categoria.classList.remove('activo');
+          if (categoria.dataset.categoria == e.target.dataset.categoria) {
+            categoria.classList.add('activo');
+          }
+        });
+      };
+    });
+  });
+
+  // EventListeners para dispositivo movil.
+  document.querySelector('#btn-menu-barras-s').addEventListener('click', (e) => {
+    e.preventDefault();
+    if (contenedorEnlacesNav.classList.contains('activo')) {
+      contenedorEnlacesNav.classList.remove('activo');
+      document.querySelector('body').style.overflow = 'visible';
+    } else {
+      contenedorEnlacesNav.classList.add('activo');
+      document.querySelector('body').style.overflow = 'hidden';
+    }
+  });
+
+  // Click en boton de todos los departamentos (Para version movil).
+  btnDepartamentos.addEventListener('click', (e) => {
+    e.preventDefault();
+    grid.classList.add('activo');
+    btnCerrarMenu.classList.add('activo');
+  });
+
+  // Boton de regresar en el menu de categorias
+  document.querySelector('#grid .categorias .btn-regresar').addEventListener('click', (e) => {
+    e.preventDefault();
+    grid.classList.remove('activo');
+    btnCerrarMenu.classList.remove('activo');
+  });
+
+  document.querySelectorAll('#menu .categorias a').forEach((elemento) => {
+    elemento.addEventListener('click', (e) => {
+      if (esDispositivoMovil()) {
+        contenedorSubCategorias.classList.add('activo');
+        document.querySelectorAll('#menu .subcategoria').forEach((categoria) => {
+          categoria.classList.remove('activo');
+          if (categoria.dataset.categoria == e.target.dataset.categoria) {
+            categoria.classList.add('activo');
+          }
+        });
+      }
+    });
+  });
+
+  // Boton de regresar en el menu de categorias
+  document.querySelectorAll('#grid .contenedor-subcategorias .btn-regresar').forEach((boton) => {
+    boton.addEventListener('click', (e) => {
+      e.preventDefault();
+      contenedorSubCategorias.classList.remove('activo');
+    });
+  });
+
+  btnCerrarMenu.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.querySelectorAll('#menu .activo').forEach((elemento) => {
+      elemento.classList.remove('activo');
+    });
+    document.querySelector('body').style.overflow = 'visible';
+  });
+</script>
+  </script>
+ 
+</body>
+<style>
+  body {
+    background-color: #f2f2f2;
+  }
+</style>
+
+</html>
